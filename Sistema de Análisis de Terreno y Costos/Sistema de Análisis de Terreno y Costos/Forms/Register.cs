@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,12 +29,20 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Forms
             {
                 lblErrorRegistroUsuario.Visible = true;
                 lblErrorRegistroUsuario.Text = "Ingrese su usuario!";
-                MessageBox.Show("Error");
+                
             }
             else
             {
-                lblErrorRegistroUsuario.Visible = false;
-                validateusuario = true;
+               if (txtUsuarioRegistrar.Text.Length < 12)
+                {
+                    lblErrorRegistroUsuario.Visible = true;
+                    lblErrorRegistroUsuario.Text = "El usuario debe tener 12 caracteres!";
+                }
+                else
+                {
+                    lblErrorRegistroUsuario.Visible = false;
+                    validateusuario = true;
+                }
             }
 
             if (txtPasswordRegistrar.Text == "")
@@ -70,8 +79,19 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Forms
             if (validateusuario == true && validatepassword == true && validatepasswordconfirm == true)
             {
                 validate = true;
+                MessageBox.Show("Usuario registrado con exito", "Exito de validacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Por favor complete todos los campos de texto.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
+
+            if(validate == true)
+            {
+                string line = $"{txtUsuarioRegistrar.Text};{txtPasswordRegistrar.Text}";
+                File.AppendAllText("usuarios.csv", line + Environment.NewLine);
+            }
 
         }
     }

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\modelos\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|c:\\users\\juanj\\documents\\github\\proyecto-integrador\\simulador interactivo de circuitos rc y rl\\simulador interactivo de circuitos rc y rl\\modelos\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\modelos\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\utilidades\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|c:\\users\\juanj\\documents\\github\\proyecto-integrador\\simulador interactivo de circuitos rc y rl\\simulador interactivo de circuitos rc y rl\\archivosimulaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\archivosimulaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\archivosimulaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -106,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -115,18 +115,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Circuito.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito.cs",
-              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito.cs",
-              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T16:45:35.653Z"
             },
             {
               "$type": "Document",
@@ -150,8 +138,7 @@
               "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Utilidades\\ArchivodeUsuarios.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAUwJMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T16:13:01.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T16:13:01.398Z"
             },
             {
               "$type": "Document",
@@ -163,8 +150,7 @@
               "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Formularios\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T12:13:36.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T12:13:36.852Z"
             },
             {
               "$type": "Document",
@@ -188,8 +174,7 @@
               "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Utilidades\\Login.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T02:00:31.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T02:00:31.253Z"
             },
             {
               "$type": "Document",
@@ -201,8 +186,7 @@
               "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Utilidades\\Registro.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T02:06:16.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T02:06:16.153Z"
             },
             {
               "$type": "Document",
@@ -216,6 +200,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T01:55:05.455Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Circuito.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:45:35.653Z"
             },
             {
               "$type": "Document",
@@ -238,8 +234,7 @@
               "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\ArchivoSimulaciones.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T21:02:47.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T21:02:47.097Z"
             },
             {
               "$type": "Document",
@@ -343,8 +338,7 @@
               "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Formularios\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T12:13:33.213Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-29T12:13:33.213Z"
             },
             {
               "$type": "Document",
