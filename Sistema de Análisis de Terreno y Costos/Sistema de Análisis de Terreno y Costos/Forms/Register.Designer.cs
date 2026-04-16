@@ -39,6 +39,7 @@
             this.lblErrorRegistroUsuario = new System.Windows.Forms.Label();
             this.lblErrorRegistroPassword = new System.Windows.Forms.Label();
             this.lblErrorConfirmarContraseña = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,6 +144,14 @@
             this.lblErrorConfirmarContraseña.Text = "***";
             this.lblErrorConfirmarContraseña.Visible = false;
             // 
+            // panel1
+            // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.panel1.Location = new System.Drawing.Point(49, 29);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(670, 361);
+            this.panel1.TabIndex = 14;
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -159,6 +168,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUsuarioRegistrar);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel1);
             this.Name = "Register";
             this.Text = "Register";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -180,5 +190,6 @@
         private System.Windows.Forms.Label lblErrorRegistroUsuario;
         private System.Windows.Forms.Label lblErrorRegistroPassword;
         private System.Windows.Forms.Label lblErrorConfirmarContraseña;
+        private System.Windows.Forms.Panel panel1;
     }
 }

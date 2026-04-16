@@ -28,6 +28,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Forms
             {
                 lblErrorRegistroUsuario.Visible = true;
                 lblErrorRegistroUsuario.Text = "Ingrese su usuario!";
+                MessageBox.Show("Error");
             }
             else
             {

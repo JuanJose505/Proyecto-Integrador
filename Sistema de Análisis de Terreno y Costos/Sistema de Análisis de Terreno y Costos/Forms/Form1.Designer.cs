@@ -36,13 +36,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnIniciarSesion = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Sistema_de_Análisis_de_Terreno_y_Costos.Properties.Resources.SIMBOLO_UNICESAR_2024;
-            this.pictureBox1.Location = new System.Drawing.Point(199, 111);
+            this.pictureBox1.Location = new System.Drawing.Point(127, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(333, 277);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -109,6 +111,15 @@
             this.btnIniciarSesion.Text = "Iniciar sesion";
             this.btnIniciarSesion.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Location = new System.Drawing.Point(90, 69);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(578, 568);
+            this.panel1.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -121,10 +132,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Programa";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,6 +152,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Button btnIniciarSesion;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
