@@ -1,0 +1,9 @@
+Estudiante|camilo|meza|AndrehMZ|1234|cameza@unicesar.edu.co|1065878276|3107598532|4|Ingenieria en Sistemas
+Profesor|asa|asaaa|andreh|1234|hjdhdhdh@gmail.com|6336353535|626262262|calculo
+Profesor|wer|rew|andre|1234|sdfssdf@gmail.com|123456789|12345678|calculo
+Estudiante|camilo|meza|AndrehMZ1|1234|cameza@unicesar.edu.co|1065878276|3163361749|4|Ingenieria en Sistemas
+Profesor|pepe|perez|pepepez|12345|huififhui@gmail.com|7827363636|433425626|calculo
+Estudiante|camilo|meza|camilo|1234|cameza@unicesar.edu.co|1065878276|3163361749|4|ingenieria en sistemas
+Profesor|pepe|perez|pepez1|1234|pepez@gmail.com|1065878276|3107598532|calculo 
+Profesor|hdhdh|jdjdj|peep|12345|jdjdjdj@gamil.com|1234563311222||
+Estudiante|Abrahan|Melano|Abrahan|12345|abranmelano20veces@gmail.com|103449499|312487372|9|Ginecologia

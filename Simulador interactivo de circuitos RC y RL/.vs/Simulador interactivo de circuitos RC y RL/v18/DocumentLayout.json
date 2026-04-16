@@ -1,0 +1,413 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\modelos\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\modelos\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\utilidades\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\utilidades\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\utilidades\\archivodeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\utilidades\\archivodeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\utilidades\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\utilidades\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|c:\\users\\juanj\\documents\\github\\proyecto-integrador\\simulador interactivo de circuitos rc y rl\\simulador interactivo de circuitos rc y rl\\archivosimulaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\archivosimulaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\formularios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\formularios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\resources\\1630602746293.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\resources\\1630602746293.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\formularios\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\formularios\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\formularios\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\formularios\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\formularios\\formcontrase\u00F1aolvidada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\formularios\\formcontrase\u00F1aolvidada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\clases que falta por resolver\\formhistorialsimulaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\clases que falta por resolver\\formhistorialsimulaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\clases que falta por resolver\\formhistorialsimulaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\clases que falta por resolver\\formhistorialsimulaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\simulacion\\circuito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\simulacion\\circuito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\modelos\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\modelos\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\modelos\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\modelos\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\formularios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\formularios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\formularios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\formularios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\formularios\\formcontrase\u00F1aolvidada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\formularios\\formcontrase\u00F1aolvidada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\controladores\\controlador_rl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\controladores\\controlador_rl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\formularios\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\formularios\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\controladores\\controlador_rc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\controladores\\controlador_rc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\simulacion\\circuito_rc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\simulacion\\circuito_rc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\formularios\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\formularios\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\simulador interactivo de circuitos rc y rl\\formularios\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1A59A2-2589-47AF-A100-EEE583E5AE3C}|Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL.csproj|solutionrelative:simulador interactivo de circuitos rc y rl\\formularios\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Circuito.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:45:35.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Controlador_RL.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Controladores\\Controlador_RL.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Controladores\\Controlador_RL.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Controladores\\Controlador_RL.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Controladores\\Controlador_RL.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswDoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:45:28.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArchivodeUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Utilidades\\ArchivodeUsuarios.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Utilidades\\ArchivodeUsuarios.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Utilidades\\ArchivodeUsuarios.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Utilidades\\ArchivodeUsuarios.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAUwJMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:13:01.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\Form1.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Formularios\\Form1.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\Form1.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Formularios\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T12:13:36.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormRegister.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormRegister.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Formularios\\FormRegister.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormRegister.cs*",
+              "RelativeToolTip": "..\\..\\Programacion III\\Segundo Corte\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormRegister.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T12:54:24.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Utilidades\\Login.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Utilidades\\Login.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Utilidades\\Login.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Utilidades\\Login.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T02:00:31.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Registro.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Utilidades\\Registro.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Utilidades\\Registro.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Utilidades\\Registro.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Utilidades\\Registro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T02:06:16.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Modelos\\Estudiante.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Modelos\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Modelos\\Estudiante.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Modelos\\Estudiante.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T01:55:05.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "1630602746293.jpg -  [Ingl\u00E9s (Estados Unidos)] - Bitmap [200x200, 24 bits, JPG]",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Resources\\1630602746293.jpg",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Resources\\1630602746293.jpg",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Resources\\1630602746293.jpg -  [Ingl\u00E9s (Estados Unidos)] - Bitmap [200x200, 24 bits, JPG]",
+              "RelativeToolTip": "..\\..\\Programacion III\\Segundo Corte\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Resources\\1630602746293.jpg -  [Ingl\u00E9s (Estados Unidos)] - Bitmap [200x200, 24 bits, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-16T00:14:55.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArchivoSimulaciones.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\ArchivoSimulaciones.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\ArchivoSimulaciones.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\ArchivoSimulaciones.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\ArchivoSimulaciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T21:02:47.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Circuito_RC.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito_RC.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito_RC.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito_RC.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Simulacion\\Circuito_RC.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:12:57.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormHistorialSimulaciones.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Clases que falta por resolver\\FormHistorialSimulaciones.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Clases que falta por resolver\\FormHistorialSimulaciones.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Clases que falta por resolver\\FormHistorialSimulaciones.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Clases que falta por resolver\\FormHistorialSimulaciones.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAWwCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:53:31.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormContrase\u00F1aOlvidada.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormContrase\u00F1aOlvidada.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Formularios\\FormContrase\u00F1aOlvidada.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormContrase\u00F1aOlvidada.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Formularios\\FormContrase\u00F1aOlvidada.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwCYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:52:36.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FormLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormLogin.Designer.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Formularios\\FormLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormLogin.Designer.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Formularios\\FormLogin.Designer.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAYwEgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:39:15.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormRegister.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormRegister.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Formularios\\FormRegister.cs",
+              "ToolTip": "C:\\Users\\mezac\\source\\repos\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormRegister.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\mezac\\source\\repos\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormRegister.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T12:51:27.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Formularios\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormLogin.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Formularios\\FormLogin.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAApwAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T12:18:51.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FormLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Formularios\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\mezac\\source\\repos\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\mezac\\source\\repos\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T12:16:45.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FormContrase\u00F1aOlvidada.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormContrase\u00F1aOlvidada.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Formularios\\FormContrase\u00F1aOlvidada.cs",
+              "ToolTip": "C:\\Users\\mezac\\source\\repos\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormContrase\u00F1aOlvidada.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\mezac\\source\\repos\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\FormContrase\u00F1aOlvidada.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:30:57.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\Form1.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Formularios\\Form1.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Formularios\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T12:13:33.213Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\Program.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Formularios\\Program.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Formularios\\Program.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Formularios\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T12:13:30.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Profesor.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Modelos\\Profesor.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Modelos\\Profesor.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Modelos\\Profesor.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Modelos\\Profesor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T01:55:09.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Modelos\\Persona.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Modelos\\Persona.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Modelos\\Persona.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Modelos\\Persona.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T01:55:07.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Controlador_RC.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Controladores\\Controlador_RC.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Controladores\\Controlador_RC.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Controladores\\Controlador_RC.cs",
+              "RelativeToolTip": "Simulador interactivo de circuitos RC y RL\\Controladores\\Controlador_RC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T01:51:18.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormHistorialSimulaciones.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Clases que falta por resolver\\FormHistorialSimulaciones.cs",
+              "RelativeDocumentMoniker": "Simulador interactivo de circuitos RC y RL\\Clases que falta por resolver\\FormHistorialSimulaciones.cs",
+              "ToolTip": "C:\\Users\\mezac\\source\\repos\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Clases que falta por resolver\\FormHistorialSimulaciones.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\mezac\\source\\repos\\Simulador interactivo de circuitos RC y RL\\Simulador interactivo de circuitos RC y RL\\Clases que falta por resolver\\FormHistorialSimulaciones.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:30:19.627Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

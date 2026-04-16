@@ -1,0 +1,34 @@
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\bin\Debug\Simulador interactivo de circuitos RC y RL.exe
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\bin\Debug\Simulador interactivo de circuitos RC y RL.exe.config
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador interactivo de circuitos RC y RL.csproj.AssemblyReference.cache
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador_interactivo_de_circuitos_RC_y_RL.FormContraseñaOlvidada.resources
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador_interactivo_de_circuitos_RC_y_RL.FormHistorialSimulaciones.resources
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador_interactivo_de_circuitos_RC_y_RL.FormLogin.resources
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador_interactivo_de_circuitos_RC_y_RL.FormRegister.resources
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador_interactivo_de_circuitos_RC_y_RL.Form1.resources
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador_interactivo_de_circuitos_RC_y_RL.Properties.Resources.resources
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador interactivo de circuitos RC y RL.csproj.GenerateResource.cache
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador interactivo de circuitos RC y RL.csproj.CoreCompileInputs.cache
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulado.CE39A39D.Up2Date
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador interactivo de circuitos RC y RL.exe
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador interactivo de circuitos RC y RL.pdb
+C:\Users\mezac\source\repos\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\bin\Debug\Simulador interactivo de circuitos RC y RL.pdb
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\bin\Debug\Simulador interactivo de circuitos RC y RL.exe.config
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\bin\Debug\Simulador interactivo de circuitos RC y RL.exe
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\bin\Debug\Simulador interactivo de circuitos RC y RL.pdb
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador interactivo de circuitos RC y RL.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador_interactivo_de_circuitos_RC_y_RL.FormContraseñaOlvidada.resources
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador_interactivo_de_circuitos_RC_y_RL.FormHistorialSimulaciones.resources
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador_interactivo_de_circuitos_RC_y_RL.FormLogin.resources
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador_interactivo_de_circuitos_RC_y_RL.FormRegister.resources
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador_interactivo_de_circuitos_RC_y_RL.Form1.resources
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador_interactivo_de_circuitos_RC_y_RL.Properties.Resources.resources
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador interactivo de circuitos RC y RL.csproj.GenerateResource.cache
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador interactivo de circuitos RC y RL.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulado.CE39A39D.Up2Date
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador interactivo de circuitos RC y RL.exe
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Simulador interactivo de circuitos RC y RL\Simulador interactivo de circuitos RC y RL\obj\Debug\Simulador interactivo de circuitos RC y RL.pdb
