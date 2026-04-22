@@ -29,11 +29,11 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Forms
             {
                 lblErrorRegistroUsuario.Visible = true;
                 lblErrorRegistroUsuario.Text = "Ingrese su usuario!";
-                
+
             }
             else
             {
-               if (txtUsuarioRegistrar.Text.Length < 12)
+                if (txtUsuarioRegistrar.Text.Length < 12)
                 {
                     lblErrorRegistroUsuario.Visible = true;
                     lblErrorRegistroUsuario.Text = "El usuario debe tener 12 caracteres!";
@@ -63,7 +63,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Forms
             }
             else
             {
-                lblErrorConfirmarContraseña.Visible= false;
+                lblErrorConfirmarContraseña.Visible = false;
                 if (txtConfirmarPassword.Text != txtPasswordRegistrar.Text)
                 {
                     lblErrorConfirmarContraseña.Visible = true;
@@ -87,11 +87,17 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Forms
             }
 
 
-            if(validate == true)
+            if (validate == true)
             {
                 string line = $"{txtUsuarioRegistrar.Text};{txtPasswordRegistrar.Text}";
                 File.AppendAllText("usuarios.csv", line + Environment.NewLine);
+
+                Form1 menu = new Form1();
+                menu.Show();
+                this.Close();
             }
+
+            
 
         }
     }

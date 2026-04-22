@@ -21,6 +21,11 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
             Register registrar = new Register();
             registrar.Show();
             this.Hide();
