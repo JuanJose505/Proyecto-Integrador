@@ -28,6 +28,7 @@
         },
         "frameworks": {
           "net472": {
+            "framework": "net472",
             "projectReferences": {}
           }
         },
@@ -39,6 +40,7 @@
       },
       "frameworks": {
         "net472": {
+          "framework": "net472",
           "dependencies": {
             "Guna.UI2.WinForms": {
               "target": "Package",
