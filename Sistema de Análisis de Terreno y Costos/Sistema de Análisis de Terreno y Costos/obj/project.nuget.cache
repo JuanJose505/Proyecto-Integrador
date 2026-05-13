@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KB4ZYZjfyuc=",
+  "dgSpecHash": "pdo9RJg7J5U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos.csproj",
+  "projectFilePath": "C:\\Users\\DEIVY\\Documents\\GitHub\\Proyecto-Integrador\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\JuanJ\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512"
+    "C:\\Users\\DEIVY\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512"
   ],
   "logs": []
 }

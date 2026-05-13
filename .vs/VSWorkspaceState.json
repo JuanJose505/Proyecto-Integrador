@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Sistema de Análisis de Terreno y Costos",
-    "\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos"
+    "\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos",
+    "\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos\\Views"
   ],
-  "SelectedNode": "\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos\\Models",
+  "SelectedNode": "\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos\\Views\\Register.cs",
   "PreviewInSolutionExplorer": false
 }
