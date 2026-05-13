@@ -16,7 +16,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Login());
         }
     }
 }

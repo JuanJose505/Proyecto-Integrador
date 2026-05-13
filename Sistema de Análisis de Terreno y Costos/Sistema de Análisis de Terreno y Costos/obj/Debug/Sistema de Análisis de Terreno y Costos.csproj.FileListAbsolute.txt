@@ -13,7 +13,6 @@ C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terr
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\Sistema de Análisis de Terreno y Costos.exe
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\Sistema de Análisis de Terreno y Costos.pdb
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema de Análisis de Terreno y Costos.csproj.AssemblyReference.cache
-C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema_de_Análisis_de_Terreno_y_Costos.Form1.resources
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema_de_Análisis_de_Terreno_y_Costos.Forms.Register.resources
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema_de_Análisis_de_Terreno_y_Costos.Properties.Resources.resources
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema de Análisis de Terreno y Costos.csproj.GenerateResource.cache
@@ -22,3 +21,4 @@ C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terr
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema de Análisis de Terreno y Costos.pdb
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\Guna.UI2.dll
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema .5887436A.Up2Date
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema_de_Análisis_de_Terreno_y_Costos.Login.resources
