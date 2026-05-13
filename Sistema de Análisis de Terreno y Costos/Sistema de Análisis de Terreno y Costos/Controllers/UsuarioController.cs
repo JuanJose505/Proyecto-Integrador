@@ -47,7 +47,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
 
         public void GuardarUsuario(Usuario user)
         {
-            string linea = $"{user.Username};{user.Correo};{user.Password}";
+            string linea = $"{user.Username};{user.Correo};{user.Password};";
             File.AppendAllText("usuarios.csv", linea + Environment.NewLine);
         }
 

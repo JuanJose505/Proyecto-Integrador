@@ -37,8 +37,6 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Forms
             {
                 controller.GuardarUsuario(user);
                 MessageBox.Show("Usuario registrado con exito :)");
-                Login login = new Login();
-                login.Show();
                 this.Hide();
 
             }

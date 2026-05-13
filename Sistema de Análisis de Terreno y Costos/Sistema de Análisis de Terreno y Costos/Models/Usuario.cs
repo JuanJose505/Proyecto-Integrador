@@ -13,5 +13,6 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
         public string Password { get; set; }
         public string Correo { get; set; }
 
+        public string Rol { get; set; }
     }
 }

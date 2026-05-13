@@ -31,9 +31,8 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
         private void label1_Click(object sender, EventArgs e)
         {
             Register registrar = new Register();
-            registrar.FormClosed += (s, d) => Application.Exit();
-            registrar.Show();
-            this.Hide();
+            registrar.ShowDialog();
+
         }
 
         private void UsernameGet(Usuario user)
