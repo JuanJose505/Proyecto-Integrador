@@ -2,42 +2,44 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.UI;
+using System.Web.UI.Design;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
 {
     public class UsuarioController
     {
-        public string ValidarRegistro(Usuario user, string ConfirmarPassword)
+        public string ValidarRegistro(string usuario, string correo, string password, string ConfirmarPassword)
         {
-            if (user.Username == "")
+            if (usuario == "")
             {
                 return "Ingrese un usuario";
             }
-            if (user.Correo == "")
+            if (correo == "")
             {
                 return "Ingrese un correo";
             }
-            if (user.Password == "")
+            if (password == "")
             {
                 return "Ingrese una contraseña";
             }
-            if (!user.Correo.Contains("@"))
+            if (!correo.Contains("@"))
             {
                 return "Ingrese un correo valido";
             }
-            if (!user.Correo.Contains(".com"))
+            if (!correo.Contains(".com"))
             {
                 return "Ingrese un correo valido";
             }
-            if (user.Username.Length < 12)
+            if (usuario.Length < 12)
             {
                 return "El usuario debe tener 12 letras o mas";
             }
-            if (ConfirmarPassword != user.Password)
+            if (ConfirmarPassword != password)
             {
                 return "Las contraseñas deben ser las mismas";
             }
@@ -45,31 +47,43 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             return null;
         }
 
-        public void GuardarUsuario(Usuario user)
+        public string GetUsername(string correo)
         {
-            string linea = $"{user.Username};{user.Correo};{user.Password};";
-            File.AppendAllText("usuarios.csv", linea + Environment.NewLine);
+            Usuario usuario = new Usuario();
+            Usuario user = usuario.Buscar(correo);
+            return user.Username;
+        }
+        public void GuardarUsuario(string username, string password,string correo, string rol)
+        {
+            Usuario usuario = new Usuario();
+            string hash = BCrypt.Net.BCrypt.HashPassword(password);
+            usuario.GuardarUsuario(username, hash, correo, rol);
+
         }
 
 
-        public bool login(Usuario user)
+        public string login(string correo, string password)
         {
-            if (!File.Exists("usuarios.csv"))
-            {
-                return false;
-            }
+            Usuario userModel= new Usuario();
+            Usuario  user = userModel.Buscar(correo);
 
-            var lineas = File.ReadAllLines("usuarios.csv");
-            foreach (string linea in lineas)
+            if (user != null)
             {
-                var campos = linea.Split(';');
-                if (campos[1] == user.Correo && campos[2] == user.Password)
+                if (BCrypt.Net.BCrypt.Verify(password, user.Password))
                 {
-                    return true;
-                } 
+                    return "OK";
+                }
+                else
+                {
+                    return "Password Incorrecto";
+                }
+            }
+            else
+            {
+                return "No existe el usuario";
             }
 
-            return false;
+           
         }
     }
 }

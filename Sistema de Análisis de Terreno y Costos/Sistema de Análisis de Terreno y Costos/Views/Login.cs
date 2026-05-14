@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Controllers;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Forms;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
+using BCrypt;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos
 {
@@ -35,38 +36,22 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
 
         }
 
-        private void UsernameGet(Usuario user)
-        {
-            var lineas = File.ReadAllLines("usuarios.csv");
-            foreach (var linea in lineas)
-            {
-                var campo = linea.Split(';');
-                if (campo[1] == user.Correo && campo[2] == user.Password)
-                {
-                    usuario = campo[0];
-                }
-            }
-
-        }
-
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Usuario user = new Usuario();
-            user.Correo = txtCorreo.Text;
-            user.Password = txtPassword.Text;
-            user.Username = usuario;
-            UsernameGet(user);
+            string correo = txtCorreo.Text; 
+            string password = txtPassword.Text;
 
-            bool error = usuariocontroller.login(user);
-
-            if (error)
+            string login = usuariocontroller.login(correo,password);
+            
+            if (login == "OK")
             {
-                MessageBox.Show($"Bienvenido, {usuario}");
+                string username = usuariocontroller.GetUsername(correo);
+                MessageBox.Show($"Bienvenido, {username}");
                
             }
-            else
+            else 
             {
-                MessageBox.Show("Usuario invalido, intente de nuevo");
+                MessageBox.Show(login);
             }
         }
     }

@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Controllers;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using static TheArtOfDevHtmlRenderer.Adapters.RGraphicsPath;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.Forms
 {
@@ -24,18 +26,18 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Forms
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Usuario user = new Usuario()
-            {
-                Username = txtUsuarioRegistrar.Text,
-                Correo = txtCorreoRegistrar.Text,
-                Password = txtPasswordRegistrar.Text
-            };
+            string Username = txtUsuarioRegistrar.Text;
+            string Correo = txtCorreoRegistrar.Text;
+            string Password = txtPasswordRegistrar.Text;
+            string rol = "usuario";
+            
 
-            string error = controller.ValidarRegistro(user, txtConfirmarPassword.Text);
+            string error = controller.ValidarRegistro(Username,Correo,Password, txtConfirmarPassword.Text);
 
             if (error == null)
             {
-                controller.GuardarUsuario(user);
+
+                controller.GuardarUsuario(Username,Password,Correo,rol);
                 MessageBox.Show("Usuario registrado con exito :)");
                 this.Hide();
 
