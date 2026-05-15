@@ -1,15 +1,23 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "jH3Q0sK1Otw=",
+=======
+  "dgSpecHash": "pdo9RJg7J5U=",
+>>>>>>> fc4683fac090bc87d4bc502592857ab7dd1a7c5c
   "success": true,
-  "projectFilePath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos.csproj",
+  "projectFilePath": "C:\\Users\\DEIVY\\Documents\\GitHub\\Proyecto-Integrador\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
     "C:\\Users\\JuanJ\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\JuanJ\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512",
     "C:\\Users\\JuanJ\\.nuget\\packages\\system.buffers\\4.6.1\\system.buffers.4.6.1.nupkg.sha512",
     "C:\\Users\\JuanJ\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
     "C:\\Users\\JuanJ\\.nuget\\packages\\system.numerics.vectors\\4.6.1\\system.numerics.vectors.4.6.1.nupkg.sha512",
     "C:\\Users\\JuanJ\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.1.2\\system.runtime.compilerservices.unsafe.6.1.2.nupkg.sha512"
+=======
+    "C:\\Users\\DEIVY\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512"
+>>>>>>> fc4683fac090bc87d4bc502592857ab7dd1a7c5c
   ],
   "logs": []
 }

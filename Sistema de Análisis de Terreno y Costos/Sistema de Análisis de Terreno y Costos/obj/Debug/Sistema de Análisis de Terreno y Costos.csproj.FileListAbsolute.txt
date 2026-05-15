@@ -22,9 +22,25 @@ C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terr
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\Guna.UI2.dll
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema .5887436A.Up2Date
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema_de_Análisis_de_Terreno_y_Costos.Login.resources
+<<<<<<< HEAD
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\BCrypt-Net-Next.dll
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\System.Buffers.dll
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\System.Memory.dll
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema_de_Análisis_de_Terreno_y_Costos.Views.Home.resources
+=======
+C:\Users\DEIVY\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\Sistema de Análisis de Terreno y Costos.exe.config
+C:\Users\DEIVY\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\Sistema de Análisis de Terreno y Costos.exe
+C:\Users\DEIVY\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\Sistema de Análisis de Terreno y Costos.pdb
+C:\Users\DEIVY\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\Guna.UI2.dll
+C:\Users\DEIVY\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema de Análisis de Terreno y Costos.csproj.AssemblyReference.cache
+C:\Users\DEIVY\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema_de_Análisis_de_Terreno_y_Costos.Login.resources
+C:\Users\DEIVY\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema_de_Análisis_de_Terreno_y_Costos.Forms.Register.resources
+C:\Users\DEIVY\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema_de_Análisis_de_Terreno_y_Costos.Properties.Resources.resources
+C:\Users\DEIVY\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema de Análisis de Terreno y Costos.csproj.GenerateResource.cache
+C:\Users\DEIVY\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema de Análisis de Terreno y Costos.csproj.CoreCompileInputs.cache
+C:\Users\DEIVY\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema .5887436A.Up2Date
+C:\Users\DEIVY\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema de Análisis de Terreno y Costos.exe
+C:\Users\DEIVY\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema de Análisis de Terreno y Costos.pdb
+>>>>>>> fc4683fac090bc87d4bc502592857ab7dd1a7c5c

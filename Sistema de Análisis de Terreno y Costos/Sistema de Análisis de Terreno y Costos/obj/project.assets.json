@@ -675,21 +675,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JuanJ\\.nuget\\packages\\": {}
+    "C:\\Users\\DEIVY\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos.csproj",
+      "projectUniqueName": "C:\\Users\\DEIVY\\Documents\\GitHub\\Proyecto-Integrador\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos.csproj",
       "projectName": "Sistema de Análisis de Terreno y Costos",
-      "projectPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos.csproj",
-      "packagesPath": "C:\\Users\\JuanJ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Proyecto-Integrador\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos\\obj\\",
+      "projectPath": "C:\\Users\\DEIVY\\Documents\\GitHub\\Proyecto-Integrador\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos.csproj",
+      "packagesPath": "C:\\Users\\DEIVY\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DEIVY\\Documents\\GitHub\\Proyecto-Integrador\\Sistema de Análisis de Terreno y Costos\\Sistema de Análisis de Terreno y Costos\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "C:\\Users\\JuanJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DEIVY\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
