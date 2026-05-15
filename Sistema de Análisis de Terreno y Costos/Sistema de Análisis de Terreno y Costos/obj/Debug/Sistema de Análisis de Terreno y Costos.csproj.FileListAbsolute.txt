@@ -27,3 +27,4 @@ C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terr
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\System.Memory.dll
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\JuanJ\Documents\GitHub\Proyecto-Integrador\Sistema de Análisis de Terreno y Costos\Sistema de Análisis de Terreno y Costos\obj\Debug\Sistema_de_Análisis_de_Terreno_y_Costos.Views.Home.resources

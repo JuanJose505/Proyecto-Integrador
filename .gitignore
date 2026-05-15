@@ -1,1 +1,16 @@
-/Sistema de Análisis de Terreno y Costos/.vs
+# Visual Studio
+.vs/
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg

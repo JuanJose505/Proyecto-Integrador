@@ -12,13 +12,14 @@ using Sistema_de_Análisis_de_Terreno_y_Costos.Controllers;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Forms;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
 using BCrypt;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Views;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos
 {
     public partial class Login : Form
     {
         UsuarioController usuariocontroller = new UsuarioController();
-        string usuario = "";
+
         public Login()
         {
             InitializeComponent();
@@ -45,8 +46,19 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
             
             if (login == "OK")
             {
+                Usuario rol = new Usuario();
+                
+                if(rol.Rol == "administrador")
+                {
+
+                }
+
                 string username = usuariocontroller.GetUsername(correo);
                 MessageBox.Show($"Bienvenido, {username}");
+                Home home = new Home();
+                home.FormClosed += (s, v) => Application.Exit();
+                this.Hide();
+                home.Show();
                
             }
             else 
