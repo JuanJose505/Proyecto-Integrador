@@ -73,6 +73,16 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logo_Proyecto01 {
+            get {
+                object obj = ResourceManager.GetObject("Logo Proyecto01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SIMBOLO_UNICESAR_2024 {
             get {
                 object obj = ResourceManager.GetObject("SIMBOLO-UNICESAR-2024", resourceCulture);

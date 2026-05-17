@@ -250,7 +250,7 @@
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(171, 45);
             this.guna2Button1.TabIndex = 0;
-            this.guna2Button1.Text = "Rol: administrador";
+            this.guna2Button1.Text = "Rol: Usuario";
             // 
             // panelContenedor
             // 
