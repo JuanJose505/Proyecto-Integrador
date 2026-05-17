@@ -23,9 +23,30 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             {
                 return "Ingrese un correo";
             }
-            if (password == "")
+            if (password.Length < 8)
             {
-                return "Ingrese una contraseña";
+                return "La contraseña debe tener mínimo 8 caracteres";
+            }
+
+            if (!password.Any(char.IsUpper))
+            {
+                return "Debe tener una mayúscula";
+            }
+
+            if (!password.Any(char.IsDigit))
+            {
+                return "Debe tener un número";
+            }
+
+            if (!password.Any(ch => !char.IsLetterOrDigit(ch)))
+            {
+                return "Debe tener un símbolo";
+            }
+            Usuario usuarioModel = new Usuario();
+
+            if (usuarioModel.ExisteCorreo(correo))
+            {
+                return "El correo ya existe";
             }
             if (!correo.Contains("@"))
             {
@@ -35,9 +56,9 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             {
                 return "Ingrese un correo valido";
             }
-            if (usuario.Length < 12)
+            if (usuario.Length < 4)
             {
-                return "El usuario debe tener 12 letras o mas";
+                return "El usuario debe tener mínimo 4 caracteres";
             }
             if (ConfirmarPassword != password)
             {
@@ -69,6 +90,10 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
 
             if (user != null)
             {
+                if (!user.Activo)
+                {
+                    return "Usuario inactivo";
+                }
                 if (BCrypt.Net.BCrypt.Verify(password, user.Password))
                 {
                     return "OK";
@@ -81,9 +106,13 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             else
             {
                 return "No existe el usuario";
-            }
+            }         
+        }
 
-           
+        public Usuario ObtenerUsuario(string correo)
+        {
+            Usuario usuario = new Usuario();
+            return usuario.Buscar(correo);
         }
     }
 }

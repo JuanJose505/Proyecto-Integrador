@@ -18,6 +18,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
 {
     public partial class Login : Form
     {
+        public static string CorreoActual = "";
         UsuarioController usuariocontroller = new UsuarioController();
 
         public Login()
@@ -39,18 +40,23 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            string correo = txtCorreo.Text; 
-            string password = txtPassword.Text;
+            string correo = txtCorreo.Text.Trim();
+            string password = txtPassword.Text.Trim();
 
             string login = usuariocontroller.login(correo,password);
             
             if (login == "OK")
             {
-                Usuario rol = new Usuario();
-                
-                if(rol.Rol == "administrador")
-                {
+                CorreoActual = correo;
+                Usuario user = usuariocontroller.ObtenerUsuario(correo);
 
+                if (user.Rol == "administrador")
+                {
+                    MessageBox.Show("Eres administrador");
+                }
+                else
+                {
+                    MessageBox.Show("Eres usuario");
                 }
 
                 string username = usuariocontroller.GetUsername(correo);

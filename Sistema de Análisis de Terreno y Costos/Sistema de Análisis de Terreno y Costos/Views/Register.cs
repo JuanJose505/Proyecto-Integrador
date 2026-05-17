@@ -26,9 +26,9 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Forms
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            string Username = txtUsuarioRegistrar.Text;
-            string Correo = txtCorreoRegistrar.Text;
-            string Password = txtPasswordRegistrar.Text;
+            string Username = txtUsuarioRegistrar.Text.Trim();
+            string Correo = txtCorreoRegistrar.Text.Trim();
+            string Password = txtPasswordRegistrar.Text.Trim();
             string rol = "usuario";
             
 

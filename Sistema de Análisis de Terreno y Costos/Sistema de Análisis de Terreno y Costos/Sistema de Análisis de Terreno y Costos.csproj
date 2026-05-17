@@ -51,6 +51,12 @@
   <ItemGroup>
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Views\CambiarClaveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CambiarClaveForm.Designer.cs">
+      <DependentUpon>CambiarClaveForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Views\CambiarClaveForm.resx">
+      <DependentUpon>CambiarClaveForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
