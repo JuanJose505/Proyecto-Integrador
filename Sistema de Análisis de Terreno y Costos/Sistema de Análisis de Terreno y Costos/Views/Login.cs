@@ -8,10 +8,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BCrypt;
+using Guna.UI2.WinForms;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Controllers;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Forms;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
-using BCrypt;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Views;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos
@@ -49,19 +50,9 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
             {
                 CorreoActual = correo;
                 Usuario user = usuariocontroller.ObtenerUsuario(correo);
-
-                if (user.Rol == "administrador")
-                {
-                    MessageBox.Show("Eres administrador");
-                }
-                else
-                {
-                    MessageBox.Show("Eres usuario");
-                }
-
+                string rol = user.Rol;
                 string username = usuariocontroller.GetUsername(correo);
-                MessageBox.Show($"Bienvenido, {username}");
-                Home home = new Home();
+                Home home = new Home(correo, rol);
                 home.FormClosed += (s, v) => Application.Exit();
                 this.Hide();
                 home.Show();

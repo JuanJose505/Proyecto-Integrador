@@ -7,16 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Controllers;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Views;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 {
     public partial class Home : Form
     {
-        public Home()
+        private string correo;
+        private string rol; 
+        public Home(string correo, string rol)
         {
             InitializeComponent();
+            this.correo = correo;
+            this.rol = rol;
+            Saludos();
         }
+
         public void AbrirFormulario(Form formulario)
         {
             panelContenedor.Controls.Clear();
@@ -28,6 +35,20 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
             panelContenedor.Controls.Add(formulario);
 
             formulario.Show();
+        }
+        
+
+        //PARA DIFERENCIAR USUARIO Y ROL EN AVISO DE BIENVENIDA//
+        private void Saludos()
+        {
+            UsuarioController usuario = new UsuarioController();
+            string username = usuario.GetUsername(correo);
+            guna2Button11.Text = username;
+            guna2Button1.Text = rol;
+
+
+
+
         }
         private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
         {
