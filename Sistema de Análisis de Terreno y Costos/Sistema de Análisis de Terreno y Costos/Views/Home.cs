@@ -16,5 +16,15 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         {
             InitializeComponent();
         }
+
+        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void splitContainer1_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+
+        }
     }
 }
