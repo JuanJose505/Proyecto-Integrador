@@ -30,19 +30,21 @@
         {
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGestionUsuarios = new Guna.UI2.WinForms.Guna2Button();
-            this.btnClientes = new Guna.UI2.WinForms.Guna2Button();
-            this.btnMateriales = new Guna.UI2.WinForms.Guna2Button();
-            this.btnTerreno = new Guna.UI2.WinForms.Guna2Button();
-            this.btnVolumen = new Guna.UI2.WinForms.Guna2Button();
-            this.btnCotizaciones = new Guna.UI2.WinForms.Guna2Button();
-            this.btnFacturas = new Guna.UI2.WinForms.Guna2Button();
-            this.btnCambiarPassword = new Guna.UI2.WinForms.Guna2Button();
-            this.btnCerrarSesion = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCerrarSesion = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCambiarPassword = new Guna.UI2.WinForms.Guna2Button();
+            this.btnFacturas = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCotizaciones = new Guna.UI2.WinForms.Guna2Button();
+            this.btnVolumen = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTerreno = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMateriales = new Guna.UI2.WinForms.Guna2Button();
+            this.btnClientes = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGestionUsuarios = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.panelContenedor = new Guna.UI2.WinForms.Guna2Panel();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,160 +76,15 @@
             this.splitContainer1.Panel1.Controls.Add(this.btnGestionUsuarios);
             this.splitContainer1.Panel1.Controls.Add(this.guna2Button1);
             this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.panelContenedor);
+            this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
             this.splitContainer1.Size = new System.Drawing.Size(1198, 656);
             this.splitContainer1.SplitterDistance = 209;
             this.splitContainer1.TabIndex = 1;
             this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Black;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(19, 103);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(171, 45);
-            this.guna2Button1.TabIndex = 0;
-            this.guna2Button1.Text = "Rol: administrador";
-            // 
-            // btnGestionUsuarios
-            // 
-            this.btnGestionUsuarios.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnGestionUsuarios.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnGestionUsuarios.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnGestionUsuarios.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGestionUsuarios.FillColor = System.Drawing.Color.Black;
-            this.btnGestionUsuarios.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnGestionUsuarios.ForeColor = System.Drawing.Color.White;
-            this.btnGestionUsuarios.Location = new System.Drawing.Point(19, 190);
-            this.btnGestionUsuarios.Name = "btnGestionUsuarios";
-            this.btnGestionUsuarios.Size = new System.Drawing.Size(171, 45);
-            this.btnGestionUsuarios.TabIndex = 1;
-            this.btnGestionUsuarios.Text = "🧑 Gestión Usuarios";
-            // 
-            // btnClientes
-            // 
-            this.btnClientes.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnClientes.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnClientes.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnClientes.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnClientes.FillColor = System.Drawing.Color.Black;
-            this.btnClientes.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnClientes.ForeColor = System.Drawing.Color.White;
-            this.btnClientes.Location = new System.Drawing.Point(19, 241);
-            this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(171, 45);
-            this.btnClientes.TabIndex = 2;
-            this.btnClientes.Text = "👥 Clientes";
-            // 
-            // btnMateriales
-            // 
-            this.btnMateriales.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnMateriales.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnMateriales.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnMateriales.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMateriales.FillColor = System.Drawing.Color.Black;
-            this.btnMateriales.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnMateriales.ForeColor = System.Drawing.Color.White;
-            this.btnMateriales.Location = new System.Drawing.Point(19, 292);
-            this.btnMateriales.Name = "btnMateriales";
-            this.btnMateriales.Size = new System.Drawing.Size(171, 45);
-            this.btnMateriales.TabIndex = 3;
-            this.btnMateriales.Text = "🪨 Materiales";
-            // 
-            // btnTerreno
-            // 
-            this.btnTerreno.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnTerreno.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnTerreno.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnTerreno.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnTerreno.FillColor = System.Drawing.Color.Black;
-            this.btnTerreno.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnTerreno.ForeColor = System.Drawing.Color.White;
-            this.btnTerreno.Location = new System.Drawing.Point(19, 343);
-            this.btnTerreno.Name = "btnTerreno";
-            this.btnTerreno.Size = new System.Drawing.Size(171, 45);
-            this.btnTerreno.TabIndex = 4;
-            this.btnTerreno.Text = "📐 Terreno";
-            // 
-            // btnVolumen
-            // 
-            this.btnVolumen.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnVolumen.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnVolumen.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnVolumen.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnVolumen.FillColor = System.Drawing.Color.Black;
-            this.btnVolumen.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnVolumen.ForeColor = System.Drawing.Color.White;
-            this.btnVolumen.Location = new System.Drawing.Point(19, 394);
-            this.btnVolumen.Name = "btnVolumen";
-            this.btnVolumen.Size = new System.Drawing.Size(171, 45);
-            this.btnVolumen.TabIndex = 5;
-            this.btnVolumen.Text = "📊 Volumen";
-            // 
-            // btnCotizaciones
-            // 
-            this.btnCotizaciones.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCotizaciones.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCotizaciones.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCotizaciones.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCotizaciones.FillColor = System.Drawing.Color.Black;
-            this.btnCotizaciones.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnCotizaciones.ForeColor = System.Drawing.Color.White;
-            this.btnCotizaciones.Location = new System.Drawing.Point(19, 445);
-            this.btnCotizaciones.Name = "btnCotizaciones";
-            this.btnCotizaciones.Size = new System.Drawing.Size(171, 45);
-            this.btnCotizaciones.TabIndex = 6;
-            this.btnCotizaciones.Text = "💰 Cotizaciones";
-            // 
-            // btnFacturas
-            // 
-            this.btnFacturas.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnFacturas.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnFacturas.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnFacturas.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnFacturas.FillColor = System.Drawing.Color.Black;
-            this.btnFacturas.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnFacturas.ForeColor = System.Drawing.Color.White;
-            this.btnFacturas.Location = new System.Drawing.Point(19, 496);
-            this.btnFacturas.Name = "btnFacturas";
-            this.btnFacturas.Size = new System.Drawing.Size(171, 45);
-            this.btnFacturas.TabIndex = 7;
-            this.btnFacturas.Text = "🧾 Facturas";
-            // 
-            // btnCambiarPassword
-            // 
-            this.btnCambiarPassword.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCambiarPassword.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCambiarPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCambiarPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCambiarPassword.FillColor = System.Drawing.Color.Black;
-            this.btnCambiarPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnCambiarPassword.ForeColor = System.Drawing.Color.White;
-            this.btnCambiarPassword.Location = new System.Drawing.Point(19, 547);
-            this.btnCambiarPassword.Name = "btnCambiarPassword";
-            this.btnCambiarPassword.Size = new System.Drawing.Size(171, 45);
-            this.btnCambiarPassword.TabIndex = 8;
-            this.btnCambiarPassword.Text = "🔐 Cambiar Contraseña";
-            // 
-            // btnCerrarSesion
-            // 
-            this.btnCerrarSesion.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCerrarSesion.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCerrarSesion.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCerrarSesion.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCerrarSesion.FillColor = System.Drawing.Color.Black;
-            this.btnCerrarSesion.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnCerrarSesion.ForeColor = System.Drawing.Color.White;
-            this.btnCerrarSesion.Location = new System.Drawing.Point(19, 598);
-            this.btnCerrarSesion.Name = "btnCerrarSesion";
-            this.btnCerrarSesion.Size = new System.Drawing.Size(171, 45);
-            this.btnCerrarSesion.TabIndex = 9;
-            this.btnCerrarSesion.Text = "🚪 Cerrar Sesión";
             // 
             // guna2Button11
             // 
@@ -244,6 +101,164 @@
             this.guna2Button11.TabIndex = 10;
             this.guna2Button11.Text = "Usuario: KANEKI";
             // 
+            // btnCerrarSesion
+            // 
+            this.btnCerrarSesion.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCerrarSesion.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCerrarSesion.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCerrarSesion.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCerrarSesion.FillColor = System.Drawing.Color.Black;
+            this.btnCerrarSesion.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCerrarSesion.ForeColor = System.Drawing.Color.White;
+            this.btnCerrarSesion.Location = new System.Drawing.Point(19, 598);
+            this.btnCerrarSesion.Name = "btnCerrarSesion";
+            this.btnCerrarSesion.Size = new System.Drawing.Size(171, 45);
+            this.btnCerrarSesion.TabIndex = 9;
+            this.btnCerrarSesion.Text = "🚪 Cerrar Sesión";
+            // 
+            // btnCambiarPassword
+            // 
+            this.btnCambiarPassword.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCambiarPassword.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCambiarPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCambiarPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCambiarPassword.FillColor = System.Drawing.Color.Black;
+            this.btnCambiarPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCambiarPassword.ForeColor = System.Drawing.Color.White;
+            this.btnCambiarPassword.Location = new System.Drawing.Point(19, 547);
+            this.btnCambiarPassword.Name = "btnCambiarPassword";
+            this.btnCambiarPassword.Size = new System.Drawing.Size(171, 45);
+            this.btnCambiarPassword.TabIndex = 8;
+            this.btnCambiarPassword.Text = "🔐 Cambiar Contraseña";
+            this.btnCambiarPassword.Click += new System.EventHandler(this.btnCambiarPassword_Click);
+            // 
+            // btnFacturas
+            // 
+            this.btnFacturas.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnFacturas.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnFacturas.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnFacturas.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnFacturas.FillColor = System.Drawing.Color.Black;
+            this.btnFacturas.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnFacturas.ForeColor = System.Drawing.Color.White;
+            this.btnFacturas.Location = new System.Drawing.Point(19, 496);
+            this.btnFacturas.Name = "btnFacturas";
+            this.btnFacturas.Size = new System.Drawing.Size(171, 45);
+            this.btnFacturas.TabIndex = 7;
+            this.btnFacturas.Text = "🧾 Facturas";
+            // 
+            // btnCotizaciones
+            // 
+            this.btnCotizaciones.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCotizaciones.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCotizaciones.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCotizaciones.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCotizaciones.FillColor = System.Drawing.Color.Black;
+            this.btnCotizaciones.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCotizaciones.ForeColor = System.Drawing.Color.White;
+            this.btnCotizaciones.Location = new System.Drawing.Point(19, 445);
+            this.btnCotizaciones.Name = "btnCotizaciones";
+            this.btnCotizaciones.Size = new System.Drawing.Size(171, 45);
+            this.btnCotizaciones.TabIndex = 6;
+            this.btnCotizaciones.Text = "💰 Cotizaciones";
+            // 
+            // btnVolumen
+            // 
+            this.btnVolumen.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnVolumen.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnVolumen.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnVolumen.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnVolumen.FillColor = System.Drawing.Color.Black;
+            this.btnVolumen.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnVolumen.ForeColor = System.Drawing.Color.White;
+            this.btnVolumen.Location = new System.Drawing.Point(19, 394);
+            this.btnVolumen.Name = "btnVolumen";
+            this.btnVolumen.Size = new System.Drawing.Size(171, 45);
+            this.btnVolumen.TabIndex = 5;
+            this.btnVolumen.Text = "📊 Volumen";
+            // 
+            // btnTerreno
+            // 
+            this.btnTerreno.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnTerreno.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnTerreno.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnTerreno.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnTerreno.FillColor = System.Drawing.Color.Black;
+            this.btnTerreno.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnTerreno.ForeColor = System.Drawing.Color.White;
+            this.btnTerreno.Location = new System.Drawing.Point(19, 343);
+            this.btnTerreno.Name = "btnTerreno";
+            this.btnTerreno.Size = new System.Drawing.Size(171, 45);
+            this.btnTerreno.TabIndex = 4;
+            this.btnTerreno.Text = "📐 Terreno";
+            // 
+            // btnMateriales
+            // 
+            this.btnMateriales.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMateriales.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMateriales.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMateriales.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMateriales.FillColor = System.Drawing.Color.Black;
+            this.btnMateriales.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMateriales.ForeColor = System.Drawing.Color.White;
+            this.btnMateriales.Location = new System.Drawing.Point(19, 292);
+            this.btnMateriales.Name = "btnMateriales";
+            this.btnMateriales.Size = new System.Drawing.Size(171, 45);
+            this.btnMateriales.TabIndex = 3;
+            this.btnMateriales.Text = "🪨 Materiales";
+            // 
+            // btnClientes
+            // 
+            this.btnClientes.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnClientes.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnClientes.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnClientes.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnClientes.FillColor = System.Drawing.Color.Black;
+            this.btnClientes.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnClientes.ForeColor = System.Drawing.Color.White;
+            this.btnClientes.Location = new System.Drawing.Point(19, 241);
+            this.btnClientes.Name = "btnClientes";
+            this.btnClientes.Size = new System.Drawing.Size(171, 45);
+            this.btnClientes.TabIndex = 2;
+            this.btnClientes.Text = "👥 Clientes";
+            // 
+            // btnGestionUsuarios
+            // 
+            this.btnGestionUsuarios.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnGestionUsuarios.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnGestionUsuarios.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGestionUsuarios.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGestionUsuarios.FillColor = System.Drawing.Color.Black;
+            this.btnGestionUsuarios.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnGestionUsuarios.ForeColor = System.Drawing.Color.White;
+            this.btnGestionUsuarios.Location = new System.Drawing.Point(19, 190);
+            this.btnGestionUsuarios.Name = "btnGestionUsuarios";
+            this.btnGestionUsuarios.Size = new System.Drawing.Size(171, 45);
+            this.btnGestionUsuarios.TabIndex = 1;
+            this.btnGestionUsuarios.Text = "🧑 Gestión Usuarios";
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Black;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(19, 103);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(171, 45);
+            this.guna2Button1.TabIndex = 0;
+            this.guna2Button1.Text = "Rol: administrador";
+            // 
+            // panelContenedor
+            // 
+            this.panelContenedor.Location = new System.Drawing.Point(3, 3);
+            this.panelContenedor.Name = "panelContenedor";
+            this.panelContenedor.Size = new System.Drawing.Size(979, 650);
+            this.panelContenedor.TabIndex = 0;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -256,6 +271,7 @@
             this.Name = "Home";
             this.Text = "Home";
             this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -277,5 +293,6 @@
         private Guna.UI2.WinForms.Guna2Button btnCotizaciones;
         private Guna.UI2.WinForms.Guna2Button btnVolumen;
         private Guna.UI2.WinForms.Guna2Button btnTerreno;
+        private Guna.UI2.WinForms.Guna2Panel panelContenedor;
     }
 }
