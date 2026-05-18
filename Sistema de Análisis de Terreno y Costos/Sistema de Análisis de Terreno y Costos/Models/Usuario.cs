@@ -193,5 +193,200 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
 
             return "Contraseña cambiada correctamente";
         }
+        // =========================
+        // OBTENER USUARIOS
+        // =========================
+        public List<Usuario> ObtenerUsuarios()
+        {
+            List<Usuario> lista = new List<Usuario>();
+
+            if (!File.Exists(RUTA))
+            {
+                return lista;
+            }
+
+            var lineas = File.ReadAllLines(RUTA);
+
+            foreach (string linea in lineas)
+            {
+                string[] campos = linea.Split(';');
+
+                if (campos.Length >= 5)
+                {
+                    Usuario usuario = new Usuario();
+
+                    usuario.Username = campos[0];
+                    usuario.Password = campos[1];
+                    usuario.Correo = campos[2];
+                    usuario.Rol = campos[3];
+                    usuario.Activo = bool.Parse(campos[4]);
+
+                    lista.Add(usuario);
+                }
+            }
+
+            return lista;
+        }
+        // =========================
+        // CAMBIAR ROL
+        // =========================
+        public string CambiarRol(string correo)
+        {
+            if (!File.Exists(RUTA))
+            {
+                return "No existe la base de datos";
+            }
+
+            string[] lineas = File.ReadAllLines(RUTA);
+
+            for (int i = 0; i < lineas.Length; i++)
+            {
+                string[] campos = lineas[i].Split(';');
+
+                if (campos.Length >= 5)
+                {
+                    if (campos[2].Trim() == correo.Trim())
+                    {
+                        string nuevoRol;
+
+                        if (campos[3] == "Administrador")
+                        {
+                            nuevoRol = "Usuario";
+                        }
+                        else
+                        {
+                            nuevoRol = "Administrador";
+                        }
+
+                        lineas[i] =
+                            $"{campos[0]};" +
+                            $"{campos[1]};" +
+                            $"{campos[2]};" +
+                            $"{nuevoRol};" +
+                            $"{campos[4]}";
+
+                        File.WriteAllLines(RUTA, lineas);
+
+                        return "Rol cambiado correctamente";
+                    }
+                }
+            }
+
+            return "Usuario no encontrado";
+        }
+        // =========================
+        // CAMBIAR ESTADO
+        // =========================
+        public string CambiarEstado(string correo)
+        {
+            if (!File.Exists(RUTA))
+            {
+                return "No existe la base de datos";
+            }
+
+            string[] lineas = File.ReadAllLines(RUTA);
+
+            for (int i = 0; i < lineas.Length; i++)
+            {
+                string[] campos = lineas[i].Split(';');
+
+                if (campos.Length >= 5)
+                {
+                    if (campos[2].Trim() == correo.Trim())
+                    {
+                        bool estadoActual =
+                            bool.Parse(campos[4]);
+
+                        bool nuevoEstado =
+                            !estadoActual;
+
+                        lineas[i] =
+                            $"{campos[0]};" +
+                            $"{campos[1]};" +
+                            $"{campos[2]};" +
+                            $"{campos[3]};" +
+                            $"{nuevoEstado}";
+
+                        File.WriteAllLines(RUTA, lineas);
+
+                        return "Estado cambiado correctamente";
+                    }
+                }
+            }
+
+            return "Usuario no encontrado";
+        }
+
+        // =========================
+        // RESTABLECER PASSWORD ADMIN
+        // =========================
+        public string RestablecerPasswordAdmin(
+            string correo,
+            string nueva
+        )
+        {
+            if (!File.Exists(RUTA))
+            {
+                return "No existe la base de datos";
+            }
+
+            Usuario usuarioModel = new Usuario();
+
+            Usuario user = usuarioModel.Buscar(correo);
+
+            if (user == null)
+            {
+                return "Usuario no encontrado";
+            }
+
+            // VALIDACIONES
+            if (nueva.Length < 8)
+            {
+                return "La contraseña debe tener mínimo 8 caracteres";
+            }
+
+            if (!nueva.Any(char.IsUpper))
+            {
+                return "Debe tener una mayúscula";
+            }
+
+            if (!nueva.Any(char.IsDigit))
+            {
+                return "Debe tener un número";
+            }
+
+            if (!nueva.Any(ch => !char.IsLetterOrDigit(ch)))
+            {
+                return "Debe tener un símbolo";
+            }
+
+            string nuevoHash =
+                BCrypt.Net.BCrypt.HashPassword(nueva);
+
+            string[] lineas = File.ReadAllLines(RUTA);
+
+            for (int i = 0; i < lineas.Length; i++)
+            {
+                string[] campos = lineas[i].Split(';');
+
+                if (campos.Length >= 5)
+                {
+                    if (campos[2].Trim() == correo.Trim())
+                    {
+                        lineas[i] =
+                            $"{campos[0]};" +
+                            $"{nuevoHash};" +
+                            $"{campos[2]};" +
+                            $"{campos[3]};" +
+                            $"{campos[4]}";
+                    }
+                }
+            }
+
+            File.WriteAllLines(RUTA, lineas);
+
+            return "Contraseña restablecida";
+        }
     }
 }
+  

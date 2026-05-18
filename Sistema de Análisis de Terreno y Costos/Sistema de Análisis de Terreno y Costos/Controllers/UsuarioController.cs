@@ -114,5 +114,36 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             Usuario usuario = new Usuario();
             return usuario.Buscar(correo);
         }
+
+        public List<Usuario> ObtenerUsuarios()
+        {
+            Usuario usuario = new Usuario();
+
+            return usuario.ObtenerUsuarios();
+        }
+
+        public string CambiarRol(string correo)
+        {
+            Usuario usuario = new Usuario();
+
+            return usuario.CambiarRol(correo);
+        }
+
+        public string CambiarEstado(string correo)
+        {
+            Usuario usuario = new Usuario();
+
+            return usuario.CambiarEstado(correo);
+        }
+
+        public string RestablecerPasswordAdmin( string correo, string nueva)
+        {
+            Usuario usuario = new Usuario();
+
+            return usuario.RestablecerPasswordAdmin(
+                correo,
+                nueva
+            );
+        }
     }
 }

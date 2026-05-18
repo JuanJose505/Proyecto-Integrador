@@ -12,6 +12,7 @@ using Sistema_de_Análisis_de_Terreno_y_Costos.Views;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 {
+
     public partial class Home : Form
     {
         private string correo;
@@ -20,8 +21,17 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         {
             InitializeComponent();
             this.correo = correo;
-            this.rol = rol;
+            this.rol = rol.Trim().ToLower();
             Saludos();
+
+            if (this.rol != "administrador")
+            {
+                btnGestionUsuarios.Visible = false;
+            }
+            else
+            {
+                btnGestionUsuarios.Visible = true;
+            }
         }
 
         public void AbrirFormulario(Form formulario)
@@ -70,6 +80,13 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnGestionUsuarios_Click(object sender, EventArgs e)
+        {
+            GestionUsuariosForm gestion = new GestionUsuariosForm();
+
+            AbrirFormulario(gestion);
         }
     }
 }

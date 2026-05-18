@@ -42,5 +42,10 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 
             MessageBox.Show(resultado);
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

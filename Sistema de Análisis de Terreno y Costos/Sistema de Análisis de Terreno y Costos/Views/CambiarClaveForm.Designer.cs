@@ -40,11 +40,12 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(88, 66);
+            this.label1.Location = new System.Drawing.Point(151, 72);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(440, 39);
+            this.label1.Size = new System.Drawing.Size(423, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "CAMBIAR CONTRASEÑA  ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtContraseñaActual
             // 
@@ -60,7 +61,7 @@
             this.txtContraseñaActual.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtContraseñaActual.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtContraseñaActual.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtContraseñaActual.Location = new System.Drawing.Point(166, 137);
+            this.txtContraseñaActual.Location = new System.Drawing.Point(231, 130);
             this.txtContraseñaActual.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtContraseñaActual.Name = "txtContraseñaActual";
             this.txtContraseñaActual.PlaceholderText = "Contraseña actual";
@@ -82,7 +83,7 @@
             this.txtNuevaContraseña.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNuevaContraseña.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNuevaContraseña.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNuevaContraseña.Location = new System.Drawing.Point(166, 211);
+            this.txtNuevaContraseña.Location = new System.Drawing.Point(231, 207);
             this.txtNuevaContraseña.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNuevaContraseña.Name = "txtNuevaContraseña";
             this.txtNuevaContraseña.PlaceholderText = "Nueva contraseña";
@@ -104,7 +105,7 @@
             this.txtConfirmarContraseña.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtConfirmarContraseña.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtConfirmarContraseña.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtConfirmarContraseña.Location = new System.Drawing.Point(166, 287);
+            this.txtConfirmarContraseña.Location = new System.Drawing.Point(231, 279);
             this.txtConfirmarContraseña.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtConfirmarContraseña.Name = "txtConfirmarContraseña";
             this.txtConfirmarContraseña.PlaceholderText = "Confirmar contraseña";
@@ -123,7 +124,7 @@
             this.btnCambiarContraseña.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnCambiarContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCambiarContraseña.ForeColor = System.Drawing.Color.White;
-            this.btnCambiarContraseña.Location = new System.Drawing.Point(202, 382);
+            this.btnCambiarContraseña.Location = new System.Drawing.Point(270, 361);
             this.btnCambiarContraseña.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCambiarContraseña.Name = "btnCambiarContraseña";
             this.btnCambiarContraseña.Size = new System.Drawing.Size(139, 78);
@@ -136,7 +137,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(561, 549);
+            this.ClientSize = new System.Drawing.Size(668, 549);
             this.Controls.Add(this.btnCambiarContraseña);
             this.Controls.Add(this.txtConfirmarContraseña);
             this.Controls.Add(this.txtNuevaContraseña);

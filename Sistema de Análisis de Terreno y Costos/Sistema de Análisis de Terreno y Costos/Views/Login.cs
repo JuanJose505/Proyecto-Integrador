@@ -45,18 +45,23 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
             string password = txtPassword.Text.Trim();
 
             string login = usuariocontroller.login(correo,password);
-            
+
             if (login == "OK")
             {
                 CorreoActual = correo;
+
                 Usuario user = usuariocontroller.ObtenerUsuario(correo);
+
                 string rol = user.Rol;
+
                 string username = usuariocontroller.GetUsername(correo);
+
                 Home home = new Home(correo, rol);
+
                 home.FormClosed += (s, v) => Application.Exit();
+
                 this.Hide();
                 home.Show();
-               
             }
             else 
             {
