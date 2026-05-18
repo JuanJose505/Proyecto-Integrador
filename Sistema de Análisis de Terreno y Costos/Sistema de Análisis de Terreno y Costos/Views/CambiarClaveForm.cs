@@ -28,7 +28,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 
             if (nueva != confirmar)
             {
-                MessageBox.Show("Las contraseñas no coinciden");
+                MessageBox.Show("Las contraseñas no coinciden", "Cambiar contraseña", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -38,9 +38,8 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
             Login.CorreoActual,
             actual,
             nueva
-            ); 
-
-            MessageBox.Show(resultado);
+            );
+            MessageBox.Show(resultado, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void label1_Click(object sender, EventArgs e)

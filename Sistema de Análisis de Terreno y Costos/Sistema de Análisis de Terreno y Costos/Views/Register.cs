@@ -38,7 +38,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Forms
             {
 
                 controller.GuardarUsuario(Username,Password,Correo,rol);
-                MessageBox.Show("Usuario registrado con exito :)");
+                MessageBox.Show("Usuario registrado con éxito :).", "Registro completado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
 
             }

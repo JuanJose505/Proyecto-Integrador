@@ -50,7 +50,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         {
             if (dgvUsuarios.CurrentRow == null)
             {
-                MessageBox.Show("Seleccione un usuario");
+                MessageBox.Show("Seleccione un usuario", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -60,7 +60,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 
             string resultado = usuario.CambiarRol(correo);
 
-            MessageBox.Show(resultado);
+            MessageBox.Show(resultado, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             CargarUsuarios();
         }
@@ -69,7 +69,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         {
             if (dgvUsuarios.CurrentRow == null)
             {
-                MessageBox.Show("Seleccione un usuario");
+                MessageBox.Show("Seleccione un usuario", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -77,7 +77,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 
             string resultado = controller.CambiarEstado(correo);
 
-            MessageBox.Show(resultado);
+            MessageBox.Show(resultado, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             CargarUsuarios();
         }

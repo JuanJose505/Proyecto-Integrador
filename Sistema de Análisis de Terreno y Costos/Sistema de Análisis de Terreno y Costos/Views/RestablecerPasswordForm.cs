@@ -34,23 +34,19 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 
             if (correo == "")
             {
-                MessageBox.Show(
-                    "Ingrese un correo");
-
+                MessageBox.Show("Ingrese un correo electrónico.", "Recuperar contraseña", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             if (nueva != confirmar)
             {
-                MessageBox.Show(
-                    "Las contraseñas no coinciden");
-
+                MessageBox.Show("Las contraseñas no coinciden.", "Recuperar contraseña", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             string resultado = controller.RestablecerPasswordAdmin(correo,nueva);
 
-            MessageBox.Show(resultado);
+            MessageBox.Show(resultado, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             txtCorreoUsuario.Clear();
             txtNuevaPassword.Clear();

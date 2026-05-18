@@ -65,7 +65,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
             }
             else 
             {
-                MessageBox.Show(login);
+                MessageBox.Show(login, "Error de inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
