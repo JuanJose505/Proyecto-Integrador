@@ -88,5 +88,17 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 
             AbrirFormulario(gestion);
         }
+
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            Cliente cliente = new Cliente();
+            AbrirFormulario(cliente);
+        }
+
+        private void btnMateriales_Click(object sender, EventArgs e)
+        {
+            MaterialForm material = new MaterialForm();
+            AbrirFormulario(material);
+        }
     }
 }
