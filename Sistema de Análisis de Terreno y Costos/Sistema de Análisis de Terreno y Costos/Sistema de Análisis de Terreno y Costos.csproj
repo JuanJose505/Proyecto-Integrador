@@ -55,6 +55,7 @@
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\Material.cs" />
     <Compile Include="Models\Usuario.cs" />
+    <Compile Include="repository\UsuarioRepository.cs" />
     <Compile Include="Views\CambiarClaveForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +111,12 @@
     </Compile>
     <Compile Include="Views\RestablecerPasswordForm.Designer.cs">
       <DependentUpon>RestablecerPasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Terreno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Terreno.Designer.cs">
+      <DependentUpon>Terreno.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Views\CambiarClaveForm.resx">
       <DependentUpon>CambiarClaveForm.cs</DependentUpon>

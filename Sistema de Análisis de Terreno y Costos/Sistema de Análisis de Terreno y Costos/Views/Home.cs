@@ -100,5 +100,12 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
             MaterialForm material = new MaterialForm();
             AbrirFormulario(material);
         }
+
+        private void btnTerreno_Click(object sender, EventArgs e)
+        {
+            Terreno terreno = new Terreno();
+            AbrirFormulario(terreno);
+
+        }
     }
 }

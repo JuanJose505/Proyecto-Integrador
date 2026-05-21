@@ -201,6 +201,7 @@
             this.btnTerreno.Size = new System.Drawing.Size(171, 46);
             this.btnTerreno.TabIndex = 4;
             this.btnTerreno.Text = "📐 Terreno";
+            this.btnTerreno.Click += new System.EventHandler(this.btnTerreno_Click);
             // 
             // btnMateriales
             // 
@@ -288,7 +289,7 @@
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox1.Location = new System.Drawing.Point(1181, -4);
-            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(60, 36);
             this.guna2ControlBox1.TabIndex = 15;

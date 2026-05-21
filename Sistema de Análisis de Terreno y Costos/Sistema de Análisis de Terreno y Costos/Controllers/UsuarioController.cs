@@ -8,11 +8,13 @@ using System.Threading.Tasks;
 using System.Web.UI;
 using System.Web.UI.Design;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
+using Sistema_de_Análisis_de_Terreno_y_Costos.repository;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
 {
     public class UsuarioController
     {
+        UsuarioRepository usuarioRepository = new UsuarioRepository();
         public string ValidarRegistro(string usuario, string correo, string password, string ConfirmarPassword)
         {
             if (usuario == "")
@@ -76,9 +78,18 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
         }
         public void GuardarUsuario(string username, string password,string correo, string rol)
         {
-            Usuario usuario = new Usuario();
             string hash = BCrypt.Net.BCrypt.HashPassword(password);
-            usuario.GuardarUsuario(username, hash, correo, rol);
+
+            Usuario usuario = new Usuario()
+            {
+                Username=username,
+                Password=hash,
+                Correo=correo,
+                Rol=rol,
+                Activo=true
+            };
+
+            usuarioRepository.GuardarUsuario(usuario);
 
         }
 

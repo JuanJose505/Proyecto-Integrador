@@ -53,31 +53,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
         // =========================
         // GUARDAR USUARIO
         // =========================
-        public void GuardarUsuario(
-            string username,
-            string password,
-            string correo,
-            string rol
-        )
-        {
-            Username = username;
-            Password = password;
-            Correo = correo;
-            Rol = rol;
-            Activo = true;
-
-            string carpeta = Path.GetDirectoryName(RUTA);
-
-            if (!Directory.Exists(carpeta))
-            {
-                Directory.CreateDirectory(carpeta);
-            }
-
-            string linea =
-                $"{username};{password};{correo};{rol};true{Environment.NewLine}";
-
-            File.AppendAllText(RUTA, linea);
-        }
+        
 
         // =========================
         // BUSCAR USUARIO
