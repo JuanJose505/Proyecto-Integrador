@@ -56,9 +56,9 @@
     <Compile Include="Models\MaterialModels.cs" />
     <Compile Include="Models\PersonaModels.cs" />
     <Compile Include="Models\UsuarioModels.cs" />
-    <Compile Include="repository\ClienteRepository.cs" />
-    <Compile Include="repository\MaterialRepository.cs" />
-    <Compile Include="repository\UsuarioRepository.cs" />
+    <Compile Include="Repository\ClienteRepository.cs" />
+    <Compile Include="Repository\MaterialRepository.cs" />
+    <Compile Include="Repository\UsuarioRepository.cs" />
     <Compile Include="Views\CambiarClaveForm.cs">
       <SubType>Form</SubType>
     </Compile>

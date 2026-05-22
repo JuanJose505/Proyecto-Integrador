@@ -159,7 +159,7 @@
             this.btnCotizaciones.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCotizaciones.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnCotizaciones.FillColor = System.Drawing.Color.Black;
-            this.btnCotizaciones.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCotizaciones.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCotizaciones.ForeColor = System.Drawing.Color.White;
             this.btnCotizaciones.Location = new System.Drawing.Point(19, 446);
             this.btnCotizaciones.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -247,7 +247,7 @@
             this.btnGestionUsuarios.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnGestionUsuarios.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnGestionUsuarios.FillColor = System.Drawing.Color.Black;
-            this.btnGestionUsuarios.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnGestionUsuarios.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGestionUsuarios.ForeColor = System.Drawing.Color.White;
             this.btnGestionUsuarios.Location = new System.Drawing.Point(19, 190);
             this.btnGestionUsuarios.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

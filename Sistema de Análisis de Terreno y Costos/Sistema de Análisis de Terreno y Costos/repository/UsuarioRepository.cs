@@ -204,8 +204,9 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                     usuario.Username = campos[0];
                     usuario.Password = campos[1];
                     usuario.Correo = campos[2];
-                    usuario.Rol = campos[3];
-                    usuario.Activo = bool.Parse(campos[4]);
+                    usuario.Telefono = campos[3];
+                    usuario.Rol = campos[4];
+                    usuario.Activo = bool.Parse(campos[5]);
 
                     lista.Add(usuario);
                 }

@@ -50,12 +50,12 @@
             // lblGestionMateriales
             // 
             this.lblGestionMateriales.AutoSize = true;
-            this.lblGestionMateriales.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGestionMateriales.Font = new System.Drawing.Font("Inter", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGestionMateriales.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblGestionMateriales.Location = new System.Drawing.Point(268, 26);
+            this.lblGestionMateriales.Location = new System.Drawing.Point(232, 62);
             this.lblGestionMateriales.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGestionMateriales.Name = "lblGestionMateriales";
-            this.lblGestionMateriales.Size = new System.Drawing.Size(476, 39);
+            this.lblGestionMateriales.Size = new System.Drawing.Size(451, 41);
             this.lblGestionMateriales.TabIndex = 25;
             this.lblGestionMateriales.Text = "GESTIÓN DE MATERIALES";
             // 
@@ -64,7 +64,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(87, 156);
+            this.label1.Location = new System.Drawing.Point(51, 192);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(127, 25);
@@ -76,7 +76,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(120, 115);
+            this.label2.Location = new System.Drawing.Point(84, 151);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 25);
@@ -97,7 +97,7 @@
             this.txtNombreMaterial.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNombreMaterial.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNombreMaterial.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNombreMaterial.Location = new System.Drawing.Point(261, 102);
+            this.txtNombreMaterial.Location = new System.Drawing.Point(225, 138);
             this.txtNombreMaterial.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNombreMaterial.Name = "txtNombreMaterial";
             this.txtNombreMaterial.PlaceholderText = "Ingrese el nombre";
@@ -118,8 +118,8 @@
             0,
             0,
             0});
-            this.numPrecio.Location = new System.Drawing.Point(261, 156);
-            this.numPrecio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numPrecio.Location = new System.Drawing.Point(225, 192);
+            this.numPrecio.Margin = new System.Windows.Forms.Padding(4);
             this.numPrecio.Maximum = new decimal(new int[] {
             99999,
             0,
@@ -141,7 +141,7 @@
             this.btnAgregarMaterial.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnAgregarMaterial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarMaterial.ForeColor = System.Drawing.Color.White;
-            this.btnAgregarMaterial.Location = new System.Drawing.Point(92, 248);
+            this.btnAgregarMaterial.Location = new System.Drawing.Point(56, 284);
             this.btnAgregarMaterial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAgregarMaterial.Name = "btnAgregarMaterial";
             this.btnAgregarMaterial.Size = new System.Drawing.Size(120, 48);
@@ -160,7 +160,7 @@
             this.btnEditarMaterial.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnEditarMaterial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarMaterial.ForeColor = System.Drawing.Color.White;
-            this.btnEditarMaterial.Location = new System.Drawing.Point(261, 248);
+            this.btnEditarMaterial.Location = new System.Drawing.Point(225, 284);
             this.btnEditarMaterial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEditarMaterial.Name = "btnEditarMaterial";
             this.btnEditarMaterial.Size = new System.Drawing.Size(120, 48);
@@ -179,7 +179,7 @@
             this.btnEliminarMaterial.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnEliminarMaterial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarMaterial.ForeColor = System.Drawing.Color.White;
-            this.btnEliminarMaterial.Location = new System.Drawing.Point(92, 313);
+            this.btnEliminarMaterial.Location = new System.Drawing.Point(56, 349);
             this.btnEliminarMaterial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEliminarMaterial.Name = "btnEliminarMaterial";
             this.btnEliminarMaterial.Size = new System.Drawing.Size(120, 48);
@@ -198,7 +198,7 @@
             this.btnLimpiarMaterial.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnLimpiarMaterial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiarMaterial.ForeColor = System.Drawing.Color.White;
-            this.btnLimpiarMaterial.Location = new System.Drawing.Point(261, 313);
+            this.btnLimpiarMaterial.Location = new System.Drawing.Point(225, 349);
             this.btnLimpiarMaterial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLimpiarMaterial.Name = "btnLimpiarMaterial";
             this.btnLimpiarMaterial.Size = new System.Drawing.Size(120, 48);
@@ -231,7 +231,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvMateriales.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvMateriales.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvMateriales.Location = new System.Drawing.Point(479, 115);
+            this.dgvMateriales.Location = new System.Drawing.Point(443, 151);
             this.dgvMateriales.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvMateriales.Name = "dgvMateriales";
             this.dgvMateriales.ReadOnly = true;
@@ -268,7 +268,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(128, 200);
+            this.label3.Location = new System.Drawing.Point(92, 236);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 25);
@@ -290,7 +290,7 @@
             this.cmbEstadoMaterial.Items.AddRange(new object[] {
             "Activo",
             "Inactivo"});
-            this.cmbEstadoMaterial.Location = new System.Drawing.Point(261, 196);
+            this.cmbEstadoMaterial.Location = new System.Drawing.Point(225, 232);
             this.cmbEstadoMaterial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbEstadoMaterial.Name = "cmbEstadoMaterial";
             this.cmbEstadoMaterial.Size = new System.Drawing.Size(185, 36);
