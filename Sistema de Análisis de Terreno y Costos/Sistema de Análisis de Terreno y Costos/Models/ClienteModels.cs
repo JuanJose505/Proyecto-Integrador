@@ -7,14 +7,9 @@ using System.Threading.Tasks;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
 {
-    public class ClienteModels
+    public class ClienteModels : PersonaModels
     {
         
-        public string Nombre { get; set; }
-        public string Identificacion { get; set; }
-        public string Telefono { get; set; }
-        public string Correo { get; set; }
-
         public ClienteModels() { }
 
         

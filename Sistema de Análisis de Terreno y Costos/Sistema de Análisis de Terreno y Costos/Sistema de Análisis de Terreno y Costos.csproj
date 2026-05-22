@@ -54,6 +54,7 @@
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Models\ClienteModels.cs" />
     <Compile Include="Models\MaterialModels.cs" />
+    <Compile Include="Models\PersonaModels.cs" />
     <Compile Include="Models\UsuarioModels.cs" />
     <Compile Include="repository\ClienteRepository.cs" />
     <Compile Include="repository\MaterialRepository.cs" />
