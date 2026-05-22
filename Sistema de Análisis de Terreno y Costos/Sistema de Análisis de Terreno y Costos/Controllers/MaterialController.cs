@@ -4,14 +4,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Sistema_de_Análisis_de_Terreno_y_Costos.repository;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
 {
     public class MaterialController
     {
+        // SIMPLIFIQUE CODIGO PONIENDO USING REPOSITORY EN LA PARTE SUPERIOR Y AHORA SE DELEGA AL REPOSITORY, NO AL MODELO//
         public String Crear(String nombre, decimal precio, String estado)
         {
-            Models.Material material = new Models.Material();
+            MaterialRepository material = new MaterialRepository();
 
             if (ExisteMaterial(nombre))
             {
@@ -38,15 +40,15 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             return "ok";
         }
 
-        public List<Models.Material> Listar()
+        public List<MaterialModels> Listar()
         {
-            Models.Material material = new Models.Material();
+            MaterialRepository material = new MaterialRepository();
             return material.Listar();
         }
 
         public String Eliminar(String nombre)
         {
-            Models.Material material = new Models.Material();
+            MaterialRepository material = new MaterialRepository();
             if (!ExisteMaterial(nombre))
             {
                 return "El material con el nombre " + nombre + " no existe.";
@@ -57,7 +59,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
 
         public String Actualizar(String nombre, decimal precio, String estado)
         {
-            Models.Material material = new Models.Material();
+            MaterialRepository material = new MaterialRepository();
             if (!ExisteMaterial(nombre))
             {
                 return "El material con el nombre " + nombre + " no existe.";

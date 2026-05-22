@@ -30,57 +30,18 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Register));
-            this.lblErrorRegistroUsuario = new System.Windows.Forms.Label();
-            this.lblErrorRegistroPassword = new System.Windows.Forms.Label();
-            this.lblErrorConfirmarContraseña = new System.Windows.Forms.Label();
             this.txtCorreoRegistrar = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtConfirmarPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtPasswordRegistrar = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtUsuarioRegistrar = new Guna.UI2.WinForms.Guna2TextBox();
-            this.lblErrorCorreoRegister = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.txtTelefono = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lblErrorRegistroUsuario
-            // 
-            this.lblErrorRegistroUsuario.AutoSize = true;
-            this.lblErrorRegistroUsuario.ForeColor = System.Drawing.Color.Red;
-            this.lblErrorRegistroUsuario.Location = new System.Drawing.Point(89, 183);
-            this.lblErrorRegistroUsuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblErrorRegistroUsuario.Name = "lblErrorRegistroUsuario";
-            this.lblErrorRegistroUsuario.Size = new System.Drawing.Size(19, 13);
-            this.lblErrorRegistroUsuario.TabIndex = 11;
-            this.lblErrorRegistroUsuario.Text = "***";
-            this.lblErrorRegistroUsuario.Visible = false;
-            // 
-            // lblErrorRegistroPassword
-            // 
-            this.lblErrorRegistroPassword.AutoSize = true;
-            this.lblErrorRegistroPassword.ForeColor = System.Drawing.Color.Red;
-            this.lblErrorRegistroPassword.Location = new System.Drawing.Point(89, 289);
-            this.lblErrorRegistroPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblErrorRegistroPassword.Name = "lblErrorRegistroPassword";
-            this.lblErrorRegistroPassword.Size = new System.Drawing.Size(19, 13);
-            this.lblErrorRegistroPassword.TabIndex = 12;
-            this.lblErrorRegistroPassword.Text = "***";
-            this.lblErrorRegistroPassword.Visible = false;
-            // 
-            // lblErrorConfirmarContraseña
-            // 
-            this.lblErrorConfirmarContraseña.AutoSize = true;
-            this.lblErrorConfirmarContraseña.ForeColor = System.Drawing.Color.Red;
-            this.lblErrorConfirmarContraseña.Location = new System.Drawing.Point(89, 345);
-            this.lblErrorConfirmarContraseña.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblErrorConfirmarContraseña.Name = "lblErrorConfirmarContraseña";
-            this.lblErrorConfirmarContraseña.Size = new System.Drawing.Size(19, 13);
-            this.lblErrorConfirmarContraseña.TabIndex = 13;
-            this.lblErrorConfirmarContraseña.Text = "***";
-            this.lblErrorConfirmarContraseña.Visible = false;
             // 
             // txtCorreoRegistrar
             // 
@@ -96,7 +57,7 @@
             this.txtCorreoRegistrar.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtCorreoRegistrar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtCorreoRegistrar.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCorreoRegistrar.Location = new System.Drawing.Point(92, 251);
+            this.txtCorreoRegistrar.Location = new System.Drawing.Point(92, 242);
             this.txtCorreoRegistrar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtCorreoRegistrar.Name = "txtCorreoRegistrar";
             this.txtCorreoRegistrar.PlaceholderText = "Ingrese su correo electronico";
@@ -118,7 +79,7 @@
             this.txtConfirmarPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtConfirmarPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtConfirmarPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtConfirmarPassword.Location = new System.Drawing.Point(92, 361);
+            this.txtConfirmarPassword.Location = new System.Drawing.Point(92, 410);
             this.txtConfirmarPassword.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtConfirmarPassword.Name = "txtConfirmarPassword";
             this.txtConfirmarPassword.PlaceholderText = "Repita su nueva contraseña";
@@ -140,7 +101,7 @@
             this.txtPasswordRegistrar.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPasswordRegistrar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPasswordRegistrar.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPasswordRegistrar.Location = new System.Drawing.Point(92, 305);
+            this.txtPasswordRegistrar.Location = new System.Drawing.Point(92, 356);
             this.txtPasswordRegistrar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtPasswordRegistrar.Name = "txtPasswordRegistrar";
             this.txtPasswordRegistrar.PlaceholderText = "Ingrese su nueva contraseña";
@@ -162,25 +123,13 @@
             this.txtUsuarioRegistrar.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsuarioRegistrar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtUsuarioRegistrar.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtUsuarioRegistrar.Location = new System.Drawing.Point(92, 199);
+            this.txtUsuarioRegistrar.Location = new System.Drawing.Point(92, 190);
             this.txtUsuarioRegistrar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtUsuarioRegistrar.Name = "txtUsuarioRegistrar";
             this.txtUsuarioRegistrar.PlaceholderText = "Ingrese su nuevo usuario";
             this.txtUsuarioRegistrar.SelectedText = "";
             this.txtUsuarioRegistrar.Size = new System.Drawing.Size(173, 28);
             this.txtUsuarioRegistrar.TabIndex = 17;
-            // 
-            // lblErrorCorreoRegister
-            // 
-            this.lblErrorCorreoRegister.AutoSize = true;
-            this.lblErrorCorreoRegister.ForeColor = System.Drawing.Color.Red;
-            this.lblErrorCorreoRegister.Location = new System.Drawing.Point(89, 235);
-            this.lblErrorCorreoRegister.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblErrorCorreoRegister.Name = "lblErrorCorreoRegister";
-            this.lblErrorCorreoRegister.Size = new System.Drawing.Size(19, 13);
-            this.lblErrorCorreoRegister.TabIndex = 18;
-            this.lblErrorCorreoRegister.Text = "***";
-            this.lblErrorCorreoRegister.Visible = false;
             // 
             // label2
             // 
@@ -204,8 +153,8 @@
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(125, 436);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button1.Location = new System.Drawing.Point(123, 463);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(104, 63);
             this.guna2Button1.TabIndex = 20;
@@ -236,14 +185,36 @@
             this.guna2PictureBox1.Enabled = false;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(98, 11);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(92, 11);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(159, 99);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(173, 99);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 22;
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.txtTelefono.BorderRadius = 14;
+            this.txtTelefono.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTelefono.DefaultText = "";
+            this.txtTelefono.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTelefono.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTelefono.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTelefono.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTelefono.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.txtTelefono.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTelefono.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtTelefono.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTelefono.Location = new System.Drawing.Point(92, 299);
+            this.txtTelefono.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.PlaceholderText = "Ingrese su numero de telefono";
+            this.txtTelefono.SelectedText = "";
+            this.txtTelefono.Size = new System.Drawing.Size(173, 28);
+            this.txtTelefono.TabIndex = 25;
             // 
             // Register
             // 
@@ -251,21 +222,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(371, 594);
+            this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.lblErrorCorreoRegister);
             this.Controls.Add(this.txtUsuarioRegistrar);
             this.Controls.Add(this.txtPasswordRegistrar);
             this.Controls.Add(this.txtConfirmarPassword);
             this.Controls.Add(this.txtCorreoRegistrar);
-            this.Controls.Add(this.lblErrorConfirmarContraseña);
-            this.Controls.Add(this.lblErrorRegistroPassword);
-            this.Controls.Add(this.lblErrorRegistroUsuario);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Register";
             this.Text = "Register";
@@ -276,18 +244,15 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label lblErrorRegistroUsuario;
-        private System.Windows.Forms.Label lblErrorRegistroPassword;
-        private System.Windows.Forms.Label lblErrorConfirmarContraseña;
         private Guna.UI2.WinForms.Guna2TextBox txtCorreoRegistrar;
         private Guna.UI2.WinForms.Guna2TextBox txtConfirmarPassword;
         private Guna.UI2.WinForms.Guna2TextBox txtPasswordRegistrar;
         private Guna.UI2.WinForms.Guna2TextBox txtUsuarioRegistrar;
-        private System.Windows.Forms.Label lblErrorCorreoRegister;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txtTelefono;
     }
 }

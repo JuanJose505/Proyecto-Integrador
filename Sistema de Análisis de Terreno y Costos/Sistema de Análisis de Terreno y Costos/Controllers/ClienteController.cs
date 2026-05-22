@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Sistema_de_Análisis_de_Terreno_y_Costos.repository;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
+
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
 {
@@ -10,7 +13,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
     {
         public String Registrar(String nombre, String identificacion, String telefono,String correo)
         {
-            Models.Cliente cliente = new Models.Cliente();
+            ClienteRepository cliente = new ClienteRepository();
 
             if (string.IsNullOrWhiteSpace(nombre) ||
                 string.IsNullOrWhiteSpace(identificacion) ||
@@ -30,9 +33,9 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             return "ok";
         }
 
-        public List<Models.Cliente> Listar()
+        public List<ClienteModels> Listar()
         {
-            Models.Cliente cliente = new Models.Cliente();
+            ClienteRepository cliente = new ClienteRepository();
             return cliente.Listar();
         }
 

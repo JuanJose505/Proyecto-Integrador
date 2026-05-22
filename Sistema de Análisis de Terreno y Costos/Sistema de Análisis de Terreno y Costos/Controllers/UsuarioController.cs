@@ -15,7 +15,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
     public class UsuarioController
     {
         UsuarioRepository usuarioRepository = new UsuarioRepository();
-        public string ValidarRegistro(string usuario, string correo, string password, string ConfirmarPassword)
+        public string ValidarRegistro(string usuario, string correo, string telefono, string password, string ConfirmarPassword)
         {
             if (usuario == "")
             {
@@ -25,6 +25,21 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             {
                 return "Ingrese un correo";
             }
+
+            if (telefono == "")
+            {
+                return "Ingrese un telefono valido";
+            }
+            if(password == "")
+            {
+                return "Ingrese una contraseña";
+            }
+
+            if(telefono.Length != 10)
+            {
+                return "Ingrese un numero de telefono valido";
+            }
+
             if (password.Length < 8)
             {
                 return "La contraseña debe tener mínimo 8 caracteres";
@@ -44,9 +59,9 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             {
                 return "Debe tener un símbolo";
             }
-            Usuario usuarioModel = new Usuario();
+            UsuarioModels usuarioModel = new UsuarioModels();
 
-            if (usuarioModel.ExisteCorreo(correo))
+            if (usuarioRepository.ExisteCorreo(correo))
             {
                 return "El correo ya existe";
             }
@@ -72,21 +87,22 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
 
         public string GetUsername(string correo)
         {
-            Usuario usuario = new Usuario();
-            Usuario user = usuario.Buscar(correo);
-            return user.Username;
+            UsuarioModels user = new UsuarioRepository().Buscar(correo);
+            return user?.Username;
         }
-        public void GuardarUsuario(string username, string password,string correo, string rol)
+
+        public void GuardarUsuario(string username,string correo,string telefono,string password, string rol)
         {
             string hash = BCrypt.Net.BCrypt.HashPassword(password);
 
-            Usuario usuario = new Usuario()
+            UsuarioModels usuario = new UsuarioModels()
             {
-                Username=username,
-                Password=hash,
-                Correo=correo,
-                Rol=rol,
-                Activo=true
+                Username = username,
+                Password = hash,
+                Correo = correo,
+                Telefono = telefono,
+                Rol = rol,
+                Activo = true
             };
 
             usuarioRepository.GuardarUsuario(usuario);
@@ -96,8 +112,8 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
 
         public string login(string correo, string password)
         {
-            Usuario userModel= new Usuario();
-            Usuario  user = userModel.Buscar(correo);
+            UsuarioRepository userRepo= new UsuarioRepository();
+            UsuarioModels  user = userRepo.Buscar(correo);
 
             if (user != null)
             {
@@ -120,36 +136,36 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             }         
         }
 
-        public Usuario ObtenerUsuario(string correo)
+        public UsuarioModels ObtenerUsuario(string correo)
         {
-            Usuario usuario = new Usuario();
+            UsuarioRepository usuario = new UsuarioRepository();
             return usuario.Buscar(correo);
         }
 
-        public List<Usuario> ObtenerUsuarios()
+        public List<UsuarioModels> ObtenerUsuarios()
         {
-            Usuario usuario = new Usuario();
+            UsuarioRepository usuario = new UsuarioRepository();
 
             return usuario.ObtenerUsuarios();
         }
 
         public string CambiarRol(string correo)
         {
-            Usuario usuario = new Usuario();
+            UsuarioRepository usuario = new UsuarioRepository();
 
             return usuario.CambiarRol(correo);
         }
 
         public string CambiarEstado(string correo)
         {
-            Usuario usuario = new Usuario();
+            UsuarioRepository usuario = new UsuarioRepository();
 
             return usuario.CambiarEstado(correo);
         }
 
         public string RestablecerPasswordAdmin( string correo, string nueva)
         {
-            Usuario usuario = new Usuario();
+            UsuarioRepository usuario = new UsuarioRepository();
 
             return usuario.RestablecerPasswordAdmin(
                 correo,

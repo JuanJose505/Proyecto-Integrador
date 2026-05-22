@@ -21,7 +21,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         {
             InitializeComponent();
             this.correo = correo;
-            this.rol = rol.Trim().ToLower();
+            this.rol = rol.Trim();
             Saludos();
 
             if (this.rol != "administrador")

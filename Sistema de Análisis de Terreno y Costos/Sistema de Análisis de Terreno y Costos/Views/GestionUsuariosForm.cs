@@ -1,5 +1,6 @@
 ﻿using Sistema_de_Análisis_de_Terreno_y_Costos.Controllers;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
+using Sistema_de_Análisis_de_Terreno_y_Costos.repository;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -56,7 +57,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 
             string correo = dgvUsuarios.CurrentRow.Cells["Correo"].Value.ToString();
 
-            Usuario usuario = new Usuario();
+            UsuarioRepository usuario = new UsuarioRepository();
 
             string resultado = usuario.CambiarRol(correo);
 

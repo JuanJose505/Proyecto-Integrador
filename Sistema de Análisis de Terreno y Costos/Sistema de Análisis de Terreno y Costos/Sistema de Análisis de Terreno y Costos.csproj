@@ -52,9 +52,11 @@
     <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\MaterialController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
-    <Compile Include="Models\Cliente.cs" />
-    <Compile Include="Models\Material.cs" />
-    <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\ClienteModels.cs" />
+    <Compile Include="Models\MaterialModels.cs" />
+    <Compile Include="Models\UsuarioModels.cs" />
+    <Compile Include="repository\ClienteRepository.cs" />
+    <Compile Include="repository\MaterialRepository.cs" />
     <Compile Include="repository\UsuarioRepository.cs" />
     <Compile Include="Views\CambiarClaveForm.cs">
       <SubType>Form</SubType>

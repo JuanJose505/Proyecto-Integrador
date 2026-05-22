@@ -50,7 +50,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
             {
                 CorreoActual = correo;
 
-                Usuario user = usuariocontroller.ObtenerUsuario(correo);
+                UsuarioModels user = usuariocontroller.ObtenerUsuario(correo);
 
                 string rol = user.Rol;
 

@@ -29,15 +29,16 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Forms
             string Username = txtUsuarioRegistrar.Text.Trim();
             string Correo = txtCorreoRegistrar.Text.Trim();
             string Password = txtPasswordRegistrar.Text.Trim();
+            string Telefono = txtTelefono.Text.Trim();
             string rol = "Usuario";
             
 
-            string error = controller.ValidarRegistro(Username,Correo,Password, txtConfirmarPassword.Text);
+            string error = controller.ValidarRegistro(Username,Correo,Telefono, Password, txtConfirmarPassword.Text);
 
             if (error == null)
             {
 
-                controller.GuardarUsuario(Username,Password,Correo,rol);
+                controller.GuardarUsuario(Username,Correo,Telefono,Password,rol);
                 MessageBox.Show("Usuario registrado con éxito :).", "Registro completado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
 

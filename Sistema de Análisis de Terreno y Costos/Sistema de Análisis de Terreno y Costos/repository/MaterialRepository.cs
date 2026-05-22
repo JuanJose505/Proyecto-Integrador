@@ -4,25 +4,21 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
 
-namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
+namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
 {
-    public class Material
+    public class MaterialRepository
     {
         private static readonly string RUTA = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "db", "materiales.csv");
-        public string Nombre { get; set; }
-        public decimal Precio { get; set; }
-        public string Estado { get; set; }
-
-        public Material() { }
-
+        MaterialModels material = new MaterialModels();
         public void Crear(String nombre, decimal precio, String estado)
         {
-            Nombre = nombre;
-            Precio = precio;
-            Estado = estado;
+            material.Nombre = nombre;
+            material.Precio = precio;
+            material.Estado = estado;
 
-            String linea = $"{Nombre},{Precio},{Estado}";
+            String linea = $"{material.Nombre},{material.Precio},{material.Estado}";
 
             // Crear el directorio si no existe
             string directorio = Path.GetDirectoryName(RUTA);
@@ -35,10 +31,10 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
 
         }
 
-        public List<Material> Listar()
+        public List<MaterialModels> Listar()
         {
 
-            List<Material> materiales = new List<Material>();
+            List<MaterialModels> materiales = new List<MaterialModels>();
             if (File.Exists(RUTA))
             {
                 var lineas = File.ReadAllLines(RUTA);
@@ -50,7 +46,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
                         String nombre = datos[0];
                         decimal precio = decimal.Parse(datos[1]);
                         String estado = datos[2];
-                        Material material = new Material();
+                        MaterialModels material = new MaterialModels();
                         material.Nombre = nombre;
                         material.Precio = precio;
                         material.Estado = estado;
@@ -89,5 +85,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
                 File.WriteAllLines(RUTA, lineas);
             }
         }
+
+
     }
 }

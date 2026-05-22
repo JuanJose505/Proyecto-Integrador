@@ -4,27 +4,25 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
+using static TheArtOfDevHtmlRenderer.Adapters.RGraphicsPath;
 
-namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
+
+namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
 {
-    public class Cliente
+    public class ClienteRepository
     {
         private static readonly string RUTA = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "db", "clientes.csv");
-        public string Nombre { get; set; }
-        public string Identificacion { get; set; }
-        public string Telefono { get; set; }
-        public string Correo { get; set; }
-
-        public Cliente() { }
+        ClienteModels modelo = new ClienteModels();
 
         public void Registrar(String nombre, String identificacion, String telefono, String correo)
         {
-            Nombre = nombre;
-            Identificacion = identificacion;
-            Telefono = telefono;
-            Correo = correo;
+            modelo.Nombre = nombre;
+            modelo.Identificacion = identificacion;
+            modelo.Telefono = telefono;
+            modelo.Correo = correo;
 
-            String linea = $"{Nombre},{Identificacion},{Telefono},{Correo}";
+            String linea = $"{modelo.Nombre},{modelo.Identificacion},{modelo.Telefono},{modelo.Correo}";
 
             // Crear el directorio si no existe
             string directorio = Path.GetDirectoryName(RUTA);
@@ -37,10 +35,10 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
 
         }
 
-        public List<Cliente> Listar()
+        public List<ClienteModels> Listar()
         {
 
-            List<Cliente> clientes = new List<Cliente>();
+            List<ClienteModels> clientes = new List<ClienteModels>();
             if (File.Exists(RUTA))
             {
                 var lineas = File.ReadAllLines(RUTA);
@@ -53,7 +51,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
                         String identificacion = datos[1];
                         String telefono = datos[2];
                         String correo = datos[3];
-                        Cliente cliente = new Cliente();
+                        ClienteModels cliente = new ClienteModels();
                         cliente.Nombre = nombre;
                         cliente.Identificacion = identificacion;
                         cliente.Telefono = telefono;
@@ -64,7 +62,6 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
             }
             return clientes;
         }
-
 
     }
 }

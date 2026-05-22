@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Sistema_de_Análisis_de_Terreno_y_Costos.repository;
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 {
     public partial class CambiarClaveForm : Form
@@ -32,7 +32,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
                 return;
             }
 
-            Usuario usuario = new Usuario();
+            UsuarioRepository usuario = new UsuarioRepository();
 
             string resultado = usuario.CambiarPassword(
             Login.CorreoActual,
