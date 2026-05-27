@@ -19,6 +19,19 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         public GestionUsuariosForm()
         {
             InitializeComponent();
+            dgvUsuarios.AutoSizeColumnsMode =
+            DataGridViewAutoSizeColumnsMode.Fill;
+
+            dgvUsuarios.AutoSizeRowsMode =
+                DataGridViewAutoSizeRowsMode.AllCells;
+
+            dgvUsuarios.RowHeadersVisible = false;
+
+            dgvUsuarios.ColumnHeadersVisible = true;
+
+            dgvUsuarios.ColumnHeadersHeight = 35;
+
+            dgvUsuarios.RowTemplate.Height = 35;
         }
 
         public void CargarUsuarios()
@@ -27,6 +40,12 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 
             dgvUsuarios.DataSource =
                 controller.ObtenerUsuarios();
+
+            dgvUsuarios.Columns["Nombre"].Visible = false;
+
+            dgvUsuarios.Columns["Identificacion"].Visible = false;
+
+            dgvUsuarios.Columns["Password"].Visible = false;
         }
         private void GestionUsuariosForm_Load(
             object sender,

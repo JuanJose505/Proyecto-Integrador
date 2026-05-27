@@ -24,7 +24,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
             this.rol = rol.Trim();
             Saludos();
 
-            btnGestionUsuarios.Visible = (this.rol == "administrador");
+            btnGestionUsuarios.Visible = (this.rol == "Administrador");
         }
 
         public void AbrirFormulario(Form formulario)

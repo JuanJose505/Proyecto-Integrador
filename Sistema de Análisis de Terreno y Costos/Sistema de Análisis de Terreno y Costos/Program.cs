@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using Sistema_de_Análisis_de_Terreno_y_Costos.Controllers;
+using Sistema_de_Análisis_de_Terreno_y_Costos.repository;   
+
 namespace Sistema_de_Análisis_de_Terreno_y_Costos
 {
     internal static class Program
@@ -16,6 +19,22 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            UsuarioRepository repo =
+                new UsuarioRepository();
+
+            if (!repo.HayUsuarios())
+            {
+                UsuarioController controller =
+                    new UsuarioController();
+
+                controller.GuardarUsuario(
+                    "admin",
+                    "admin@gmail.com",
+                    "3000000000",
+                    "Admin123*",
+                    "Administrador"
+                );
+            }
             Application.Run(new Login());
         }
     }

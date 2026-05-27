@@ -150,8 +150,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
             }
 
             // generar nuevo hash
-            string nuevoHash = fBCrypt.Net.BCrypt.HashPassword(nueva);
-
+            string nuevoHash = BCrypt.Net.BCrypt.HashPassword(nueva);
             string[] lineas = File.ReadAllLines(RUTA);
 
             for (int i = 0; i < lineas.Length; i++)
@@ -376,6 +375,16 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
 
             return "Contraseña restablecida";
         }
+        public bool HayUsuarios()
+        {
+            if (!File.Exists(RUTA))
+            {
+                return false;
+            }
+
+            return File.ReadAllLines(RUTA).Length > 0;
+        }
+
 
     }
 }
