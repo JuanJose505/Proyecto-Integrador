@@ -44,14 +44,20 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                     if (datos.Length == 3)
                     {
                         String nombre = datos[0];
-                        decimal precio = decimal.Parse(datos[1]);
-                        String estado = datos[2];
-                        MaterialModels material = new MaterialModels();
-                        material.Nombre = nombre;
-                        material.Precio = precio;
-                        material.Estado = estado;
-                        materiales.Add(material);
+                        decimal precio;
+
+                        if (decimal.TryParse(datos[1], out precio))
+                        {
+                            String estado = datos[2];
+                            MaterialModels material = new MaterialModels();
+                            material.Nombre = nombre;
+                            material.Precio = precio;
+                            material.Estado = estado;
+                            materiales.Add(material);
+                        }
+
                     }
+                        
                 }
             }
             return materiales;

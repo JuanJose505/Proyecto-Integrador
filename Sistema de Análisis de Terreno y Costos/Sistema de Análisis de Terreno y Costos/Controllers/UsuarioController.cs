@@ -1,14 +1,15 @@
-﻿using System;
+﻿using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
+using Sistema_de_Análisis_de_Terreno_y_Costos.repository;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.UI;
 using System.Web.UI.Design;
-using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
-using Sistema_de_Análisis_de_Terreno_y_Costos.repository;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
 {
@@ -65,11 +66,12 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             {
                 return "El correo ya existe";
             }
-            if (!correo.Contains("@"))
+            try
             {
-                return "Ingrese un correo valido";
+                MailAddress mail =
+                    new MailAddress(correo);
             }
-            if (!correo.Contains(".com"))
+            catch
             {
                 return "Ingrese un correo valido";
             }

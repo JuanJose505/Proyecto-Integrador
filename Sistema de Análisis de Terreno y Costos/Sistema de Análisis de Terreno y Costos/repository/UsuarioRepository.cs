@@ -150,8 +150,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
             }
 
             // generar nuevo hash
-            string nuevoHash =
-                BCrypt.Net.BCrypt.HashPassword(nueva);
+            string nuevoHash = fBCrypt.Net.BCrypt.HashPassword(nueva);
 
             string[] lineas = File.ReadAllLines(RUTA);
 
@@ -168,7 +167,8 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                             $"{nuevoHash};" +
                             $"{campos[2]};" +
                             $"{campos[3]};" +
-                            $"{campos[4]}";
+                            $"{campos[4]};" +
+                            $"{campos[5]}";
                     }
                 }
             }
@@ -237,7 +237,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                     {
                         string nuevoRol;
 
-                        if (campos[3] == "Administrador")
+                        if (campos[4] == "Administrador")
                         {
                             nuevoRol = "Usuario";
                         }
@@ -250,8 +250,9 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                             $"{campos[0]};" +
                             $"{campos[1]};" +
                             $"{campos[2]};" +
+                            $"{campos[3]};" +
                             $"{nuevoRol};" +
-                            $"{campos[4]}";
+                            $"{campos[5]}";
 
                         File.WriteAllLines(RUTA, lineas);
 
@@ -284,17 +285,16 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                 {
                     if (campos[2].Trim() == correo.Trim())
                     {
-                        bool estadoActual =
-                            bool.Parse(campos[4]);
+                        bool estadoActual = bool.Parse(campos[5]);
 
-                        bool nuevoEstado =
-                            !estadoActual;
+                        bool nuevoEstado = !estadoActual;
 
                         lineas[i] =
                             $"{campos[0]};" +
                             $"{campos[1]};" +
                             $"{campos[2]};" +
                             $"{campos[3]};" +
+                            $"{campos[4]};" +
                             $"{nuevoEstado}";
 
                         File.WriteAllLines(RUTA, lineas);
@@ -366,7 +366,8 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                             $"{nuevoHash};" +
                             $"{campos[2]};" +
                             $"{campos[3]};" +
-                            $"{campos[4]}";
+                            $"{campos[4]};" +
+                            $"{campos[5]}";
                     }
                 }
             }

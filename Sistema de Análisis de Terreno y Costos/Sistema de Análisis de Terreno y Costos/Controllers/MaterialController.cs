@@ -30,7 +30,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
                 return "Ingrese un precio valido";
             }
 
-            if (estado == "")
+            if (string.IsNullOrWhiteSpace(estado))
             {
                 return "El estado es obligatorio";
             }
