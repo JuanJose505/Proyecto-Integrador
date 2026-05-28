@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
+using Sistema_de_Análisis_de_Terreno_y_Costos.repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
-using Sistema_de_Análisis_de_Terreno_y_Costos.repository;
-using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
 
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
@@ -26,6 +27,25 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             if (ExisteCliente(identificacion))
             {
                 return "El cliente ya esta registrado";
+            }
+
+            if (!identificacion.All(char.IsDigit))
+            {
+                return "Ingrese una identificación válida";
+            }
+
+            if (!telefono.All(char.IsDigit))
+            {
+                return "Ingrese un teléfono válido";
+            }
+
+            try
+            {
+                MailAddress mail = new MailAddress(correo);
+            }
+            catch
+            {
+                return "Ingrese un correo válido";
             }
 
             cliente.Registrar(nombre, identificacion, telefono, correo);
