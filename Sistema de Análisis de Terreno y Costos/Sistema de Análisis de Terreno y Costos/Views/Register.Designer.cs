@@ -82,7 +82,7 @@
             this.txtConfirmarPassword.Location = new System.Drawing.Point(140, 631);
             this.txtConfirmarPassword.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.txtConfirmarPassword.Name = "txtConfirmarPassword";
-            this.txtConfirmarPassword.PlaceholderText = "Repita su nueva contraseña";
+            this.txtConfirmarPassword.PlaceholderText = "Repita su contraseña";
             this.txtConfirmarPassword.SelectedText = "";
             this.txtConfirmarPassword.Size = new System.Drawing.Size(271, 42);
             this.txtConfirmarPassword.TabIndex = 15;
@@ -104,7 +104,7 @@
             this.txtPasswordRegistrar.Location = new System.Drawing.Point(140, 548);
             this.txtPasswordRegistrar.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.txtPasswordRegistrar.Name = "txtPasswordRegistrar";
-            this.txtPasswordRegistrar.PlaceholderText = "Ingrese su nueva contraseña";
+            this.txtPasswordRegistrar.PlaceholderText = "Ingrese su contraseña";
             this.txtPasswordRegistrar.SelectedText = "";
             this.txtPasswordRegistrar.Size = new System.Drawing.Size(271, 42);
             this.txtPasswordRegistrar.TabIndex = 16;

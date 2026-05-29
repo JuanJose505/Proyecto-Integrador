@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using System.Windows.Forms;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Controllers;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Views;
@@ -99,6 +100,13 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
             Terreno terreno = new Terreno();
             AbrirFormulario(terreno);
 
+        }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            this.Hide();
+            login.Show();
         }
     }
 }
