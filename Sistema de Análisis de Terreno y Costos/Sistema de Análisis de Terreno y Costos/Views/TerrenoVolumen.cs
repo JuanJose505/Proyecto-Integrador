@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 {
-    public partial class Terreno : Form
+    public partial class TerrenoVolumen : Form
     {
-        public Terreno()
+        public TerrenoVolumen()
         {
             InitializeComponent();
+        }
+
+        private void cmbMaterial_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

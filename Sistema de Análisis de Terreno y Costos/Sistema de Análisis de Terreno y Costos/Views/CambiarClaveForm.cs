@@ -46,5 +46,10 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         {
 
         }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -98,8 +98,8 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 
         private void btnTerreno_Click(object sender, EventArgs e)
         {
-            Terreno terreno = new Terreno();
-            AbrirFormulario(terreno);
+            TerrenoVolumen terreno = new TerrenoVolumen();
+            terreno.ShowDialog();
 
         }
 
