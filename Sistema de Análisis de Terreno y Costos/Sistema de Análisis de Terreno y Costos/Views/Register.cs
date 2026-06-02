@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Controllers;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Enums;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using static TheArtOfDevHtmlRenderer.Adapters.RGraphicsPath;
@@ -30,7 +31,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Forms
             string Correo = txtCorreoRegistrar.Text.Trim();
             string Password = txtPasswordRegistrar.Text.Trim();
             string Telefono = txtTelefono.Text.Trim();
-            string rol = "Usuario";
+            RolUsuario rol = RolUsuario.Usuario;
             
 
             string error = controller.ValidarRegistro(Username,Correo,Telefono, Password, txtConfirmarPassword.Text);

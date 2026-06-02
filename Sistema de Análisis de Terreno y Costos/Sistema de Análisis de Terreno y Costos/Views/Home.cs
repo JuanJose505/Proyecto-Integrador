@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Web.UI.WebControls;
 using System.Windows.Forms;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Controllers;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Enums;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Views;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
@@ -17,15 +18,15 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
     public partial class Home : Form
     {
         private string correo;
-        private string rol; 
-        public Home(string correo, string rol)
+        private RolUsuario rol; 
+        public Home(string correo, RolUsuario rol)
         {
             InitializeComponent();
             this.correo = correo;
-            this.rol = rol.Trim();
+            this.rol = rol;
             Saludos();
 
-            btnGestionUsuarios.Visible = (this.rol == "Administrador");
+            btnGestionUsuarios.Visible = (this.rol == RolUsuario.Administrador);
         }
 
         public void AbrirFormulario(Form formulario)
@@ -48,7 +49,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
             UsuarioController usuario = new UsuarioController();
             string username = usuario.GetUsername(correo);
             guna2Button11.Text = username;
-            guna2Button1.Text = rol;
+            guna2Button1.Text = rol.ToString();
 
 
 
@@ -106,7 +107,14 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         {
             Login login = new Login();
             this.Hide();
+            login.FormClosed += (s, d) => Application.Exit();
             login.Show();
+        }
+
+        private void btnCotizaciones_Click(object sender, EventArgs e)
+        {
+            Cotizacion cotizacion = new Cotizacion(rol);
+            AbrirFormulario(cotizacion);
         }
     }
 }

@@ -1,4 +1,6 @@
 ﻿using Guna.UI2.AnimatorNS;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Enums;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Controllers;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,7 +15,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 {
     public partial class MaterialForm : Form
     {
-        private Controllers.MaterialController controller = new Controllers.MaterialController();
+        private MaterialController controller = new MaterialController();
 
         public MaterialForm()
         {
@@ -35,9 +37,10 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 
         private void btnAgregarMaterial_Click(object sender, EventArgs e)
         {
-            String nombre = txtNombreMaterial.Text;
+            string nombre = txtNombreMaterial.Text;
             decimal precio = (decimal)numPrecio.Value;
-            String estado = cmbEstadoMaterial.Text;
+
+            string estado = cmbEstadoMaterial.Text;
 
             string resultado = controller.Crear(nombre, precio, estado);
 
@@ -80,7 +83,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         {
             String nombre = txtNombreMaterial.Text;
             decimal precio = (decimal)numPrecio.Value;
-            String estado = cmbEstadoMaterial.Text;
+            string estado = cmbEstadoMaterial.Text;
 
 
             string resultado = controller.Actualizar(nombre, precio, estado);

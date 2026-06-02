@@ -1,4 +1,5 @@
-﻿using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
+﻿using Sistema_de_Análisis_de_Terreno_y_Costos.Enums;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
 using Sistema_de_Análisis_de_Terreno_y_Costos.repository;
 using System;
 using System.Collections.Generic;
@@ -93,7 +94,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             return user?.Username;
         }
 
-        public void GuardarUsuario(string username,string correo,string telefono,string password, string rol)
+        public void GuardarUsuario(string username,string correo,string telefono,string password, RolUsuario rol)
         {
             string hash = BCrypt.Net.BCrypt.HashPassword(password);
 

@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Enums;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
@@ -12,7 +13,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
     {
         private static readonly string RUTA = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "db", "materiales.csv");
         MaterialModels material = new MaterialModels();
-        public void Crear(String nombre, decimal precio, String estado)
+        public void Crear(String nombre, decimal precio, string estado)
         {
             material.Nombre = nombre;
             material.Precio = precio;
@@ -48,12 +49,13 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
 
                         if (decimal.TryParse(datos[1], out precio))
                         {
-                            String estado = datos[2];
-                            MaterialModels material = new MaterialModels();
-                            material.Nombre = nombre;
-                            material.Precio = precio;
-                            material.Estado = estado;
-                            materiales.Add(material);
+                                String estado = datos[2];
+                                MaterialModels material = new MaterialModels();
+                                material.Nombre = nombre;
+                                material.Precio = precio;
+                                material.Estado = estado;
+                                materiales.Add(material);
+                            
                         }
 
                     }
@@ -74,7 +76,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
             }
         }
 
-        public void Actualizar(String nombre, decimal precio, String estado)
+        public void Actualizar(String nombre, decimal precio,String estado)
         {
             if (File.Exists(RUTA))
             {
@@ -92,6 +94,19 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
             }
         }
 
+        // FUNCION PARA BUSCAR POR NOMBRE DEL MATERIAL //
+        public MaterialModels BuscarporMaterial(string nombre)
+        {
+         
+            foreach (var material in Listar())
+            {
+                if (material.Nombre == nombre)
+                {
+                    return material;
+                }
+            }
+            return null;
+        }
 
     }
 }

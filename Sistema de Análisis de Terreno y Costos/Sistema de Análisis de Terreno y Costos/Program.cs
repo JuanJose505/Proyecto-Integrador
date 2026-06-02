@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using Sistema_de_Análisis_de_Terreno_y_Costos.Controllers;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Enums;
 using Sistema_de_Análisis_de_Terreno_y_Costos.repository;   
 
 namespace Sistema_de_Análisis_de_Terreno_y_Costos
@@ -32,7 +33,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
                     "admin@gmail.com",
                     "3000000000",
                     "Admin123*",
-                    "Administrador"
+                    RolUsuario.Administrador
                 );
             }
             Application.Run(new Login());

@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Enums;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using static TheArtOfDevHtmlRenderer.Adapters.RGraphicsPath;
@@ -51,7 +52,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
             string password = usuario.Password;
             string correo = usuario.Correo;
             string telefono = usuario.Telefono;
-            string rol = usuario.Rol;
+            RolUsuario rol = usuario.Rol;
             bool activo = usuario.Activo;
 
             string carpeta = Path.GetDirectoryName(RUTA);
@@ -93,7 +94,13 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                         usuarioo.Password = campos[1];
                         usuarioo.Correo = campos[2];
                         usuarioo.Telefono = campos[3];
-                        usuarioo.Rol = campos[4];
+
+                        RolUsuario rol;
+                        if (Enum.TryParse(campos[4], true, out rol))
+                        {
+                            usuarioo.Rol = rol;
+                        }
+
                         usuarioo.Activo = bool.Parse(campos[5]);
 
                         return usuarioo;
@@ -204,7 +211,12 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                     usuario.Password = campos[1];
                     usuario.Correo = campos[2];
                     usuario.Telefono = campos[3];
-                    usuario.Rol = campos[4];
+                    RolUsuario rol;
+                    if (Enum.TryParse(campos[4],true,out rol))
+                    {
+                        usuario.Rol = rol;
+                    }
+                    
                     usuario.Activo = bool.Parse(campos[5]);
 
                     lista.Add(usuario);

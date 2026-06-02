@@ -63,5 +63,18 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
             return clientes;
         }
 
+        //FUNCION PARA BUSCAR USANDO EL ID DEL CLIENTE//
+        public ClienteModels BuscarporID(string id)
+        {
+            foreach (var cliente in Listar())
+            {
+                if(cliente.Identificacion == id)
+                {
+                    return cliente;
+                }
+            }
+            return null;
+        }
+
     }
 }

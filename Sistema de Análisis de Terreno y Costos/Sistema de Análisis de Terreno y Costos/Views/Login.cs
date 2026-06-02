@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using BCrypt;
 using Guna.UI2.WinForms;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Controllers;
+using Sistema_de_Análisis_de_Terreno_y_Costos.Enums;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Forms;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Models;
 using Sistema_de_Análisis_de_Terreno_y_Costos.Views;
@@ -52,7 +53,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
 
                 UsuarioModels user = usuariocontroller.ObtenerUsuario(correo);
 
-                string rol = user.Rol;
+                RolUsuario rol = user.Rol;
 
                 string username = usuariocontroller.GetUsername(correo);
 
