@@ -22,7 +22,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
             modelo.Telefono = telefono;
             modelo.Correo = correo;
 
-            String linea = $"{modelo.Nombre},{modelo.Identificacion},{modelo.Telefono},{modelo.Correo}";
+            String linea = $"{modelo.Nombre};{modelo.Identificacion};{modelo.Telefono};{modelo.Correo}";
 
             // Crear el directorio si no existe
             string directorio = Path.GetDirectoryName(RUTA);
@@ -44,7 +44,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                 var lineas = File.ReadAllLines(RUTA);
                 foreach (var linea in lineas)
                 {
-                    var datos = linea.Split(',');
+                    var datos = linea.Split(';');
                     if (datos.Length == 4)
                     {
                         String nombre = datos[0];

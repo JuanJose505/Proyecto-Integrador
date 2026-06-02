@@ -19,7 +19,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
             material.Precio = precio;
             material.Estado = estado;
 
-            String linea = $"{material.Nombre},{material.Precio},{material.Estado}";
+            String linea = $"{material.Nombre};{material.Precio};{material.Estado}";
 
             // Crear el directorio si no existe
             string directorio = Path.GetDirectoryName(RUTA);
@@ -41,7 +41,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                 var lineas = File.ReadAllLines(RUTA);
                 foreach (var linea in lineas)
                 {
-                    var datos = linea.Split(',');
+                    var datos = linea.Split(';');
                     if (datos.Length == 3)
                     {
                         String nombre = datos[0];
@@ -71,7 +71,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
             if (File.Exists(RUTA))
             {
                 var lineas = File.ReadAllLines(RUTA);
-                var lineasActualizadas = lineas.Where(linea => !linea.StartsWith(nombre + ",")).ToArray();
+                var lineasActualizadas = lineas.Where(linea => !linea.StartsWith(nombre + ";")).ToArray();
                 File.WriteAllLines(RUTA, lineasActualizadas);
             }
         }
@@ -83,10 +83,10 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                 var lineas = File.ReadAllLines(RUTA);
                 for (int i = 0; i < lineas.Length; i++)
                 {
-                    var datos = lineas[i].Split(',');
+                    var datos = lineas[i].Split(';');
                     if (datos.Length == 3 && datos[0] == nombre)
                     {
-                        lineas[i] = $"{nombre},{precio},{estado}";
+                        lineas[i] = $"{nombre};{precio};{estado}";
                         break;
                     }
                 }
