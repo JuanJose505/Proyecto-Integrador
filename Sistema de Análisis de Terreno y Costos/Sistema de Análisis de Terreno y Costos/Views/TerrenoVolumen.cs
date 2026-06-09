@@ -29,7 +29,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
             InitializeComponent();
 
             ctrl3D = new Terreno3DControl { Dock = DockStyle.Fill };
-            panelTerreno.Controls.Add(ctrl3D)
+            panelTerreno.Controls.Add(ctrl3D);
 
             _presenter = new TerrenoVolumenPresenter(this);
 
@@ -42,7 +42,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 
         private void cmbMaterial_SelectedIndexChanged(object sender, EventArgs e)
         {
-            _presenter.ActualizarCostoPorMaterial();
+            _presenter.ActualizarCosto();
         }
 
         private void btnAgregarTerreno_Click(object sender, EventArgs e)
@@ -56,7 +56,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         }
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            _presenter.CalcularVolumenYCosto();
+            _presenter.CalcularVolumen();
         }
 
         private void cmbCliente_SelectedIndexChanged(object sender, EventArgs e)
@@ -66,6 +66,11 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         private void btnGuardarCotizacion_Click(object sender, EventArgs e)
         {
             _presenter.GuardarCotizacion();
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 
