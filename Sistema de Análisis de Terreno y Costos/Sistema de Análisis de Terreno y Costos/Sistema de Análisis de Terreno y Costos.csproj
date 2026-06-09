@@ -64,19 +64,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalcVolumen\CalculoVolumen.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\CotizacionController.cs" />
     <Compile Include="Controllers\MaterialController.cs" />
+    <Compile Include="Controllers\TerrenoController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
+    <Compile Include="Controllers\VolumenController.cs" />
     <Compile Include="Enums\RolUsuario.cs" />
     <Compile Include="Models\ClienteModels.cs" />
     <Compile Include="Models\CotizacionModels.cs" />
     <Compile Include="Models\MaterialModels.cs" />
     <Compile Include="Models\PersonaModels.cs" />
+    <Compile Include="Models\PuntoTerreno.cs" />
     <Compile Include="Models\UsuarioModels.cs" />
     <Compile Include="Repository\ClienteRepository.cs" />
     <Compile Include="Repository\CotizacionRepository.cs" />
+    <Compile Include="Repository\ITerrenoRepository.cs" />
     <Compile Include="Repository\MaterialRepository.cs" />
+    <Compile Include="Repository\TerrenoRepository.cs" />
     <Compile Include="Repository\UsuarioRepository.cs" />
     <Compile Include="Views\CambiarClaveForm.cs">
       <SubType>Form</SubType>
@@ -146,6 +152,11 @@
     <Compile Include="Views\TerrenoVolumen.Designer.cs">
       <DependentUpon>TerrenoVolumen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Terreno\Terreno3DControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Terreno\TerrenoValidaciones.cs" />
+    <Compile Include="Views\Terreno\TerrenoVolumenPresenter.cs" />
     <EmbeddedResource Include="Views\CambiarClaveForm.resx">
       <DependentUpon>CambiarClaveForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -189,6 +200,9 @@
     <EmbeddedResource Include="Views\TerrenoVolumen.resx">
       <DependentUpon>TerrenoVolumen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Terreno\Terreno3DControl.resx">
+      <DependentUpon>Terreno3DControl.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -212,6 +226,15 @@
     </PackageReference>
     <PackageReference Include="Guna.UI2.WinForms">
       <Version>2.0.4.7</Version>
+    </PackageReference>
+    <PackageReference Include="OpenTK">
+      <Version>3.3.3</Version>
+    </PackageReference>
+    <PackageReference Include="OpenTK.GLControl">
+      <Version>3.3.3</Version>
+    </PackageReference>
+    <PackageReference Include="ScottPlot.WinForms">
+      <Version>5.1.58</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
