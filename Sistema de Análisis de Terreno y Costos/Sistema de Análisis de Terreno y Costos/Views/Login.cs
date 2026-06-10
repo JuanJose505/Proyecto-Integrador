@@ -69,5 +69,18 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos
                 MessageBox.Show(login, "Error de inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnShowPassword_Click(object sender, EventArgs e)
+        {
+
+            if (txtPassword.UseSystemPasswordChar == true)
+            {
+                txtPassword.UseSystemPasswordChar = false;
+            }
+            else if (txtPassword.UseSystemPasswordChar == false)
+            {
+                txtPassword.UseSystemPasswordChar = true;
+            }
+        }
     }
 }
