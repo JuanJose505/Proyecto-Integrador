@@ -228,8 +228,6 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views.Terreno
                 _vista.labValor.Text = string.Format("Precio: $ {0:N2} / m3", mat.Precio);
             else
                 _vista.labValor.Text = "Precio: —";
-
-            // Lo que ya tenías
             if (_ultimoVolumen <= 0) return;
             if (mat == null) return;
 
