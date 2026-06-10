@@ -73,6 +73,7 @@
     <Compile Include="Controllers\VolumenController.cs" />
     <Compile Include="Enums\RolUsuario.cs" />
     <Compile Include="Models\ClienteModels.cs" />
+    <Compile Include="Models\CotizacionDGV.cs" />
     <Compile Include="Models\CotizacionModels.cs" />
     <Compile Include="Models\MaterialModels.cs" />
     <Compile Include="Models\PersonaModels.cs" />
@@ -157,6 +158,12 @@
     </Compile>
     <Compile Include="Views\Terreno\TerrenoValidaciones.cs" />
     <Compile Include="Views\Terreno\TerrenoVolumenPresenter.cs" />
+    <Compile Include="Views\Terreno_fondo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Terreno_fondo.Designer.cs">
+      <DependentUpon>Terreno_fondo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Views\CambiarClaveForm.resx">
       <DependentUpon>CambiarClaveForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -202,6 +209,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Terreno\Terreno3DControl.resx">
       <DependentUpon>Terreno3DControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Terreno_fondo.resx">
+      <DependentUpon>Terreno_fondo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">

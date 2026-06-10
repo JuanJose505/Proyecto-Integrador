@@ -40,6 +40,11 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
             _presenter.CargarDatosIniciales();
         }
 
+        //── Evento: Form activado ─────────────────────────────────────
+        private void TerrenoVolumen_Activated(object sender, EventArgs e)
+        {
+            _presenter.CargarCombos();
+        }
         private void cmbMaterial_SelectedIndexChanged(object sender, EventArgs e)
         {
             _presenter.ActualizarCosto();
@@ -48,6 +53,9 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         private void btnAgregarTerreno_Click(object sender, EventArgs e)
         {
             _presenter.AgregarPunto();
+            txtTerrenoX.Clear();
+            txtTerrenoY.Clear();
+            txtTerrenoZ.Clear();
         }
 
         private void btnEliminarTerreno_Click(object sender, EventArgs e)

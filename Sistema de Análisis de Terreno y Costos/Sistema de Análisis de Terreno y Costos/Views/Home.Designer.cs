@@ -91,7 +91,7 @@
             this.guna2Button11.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.guna2Button11.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button11.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button11.ForeColor = System.Drawing.Color.White;
             this.guna2Button11.Location = new System.Drawing.Point(14, 42);
             this.guna2Button11.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -108,7 +108,7 @@
             this.btnCerrarSesion.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCerrarSesion.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnCerrarSesion.FillColor = System.Drawing.Color.Black;
-            this.btnCerrarSesion.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCerrarSesion.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrarSesion.ForeColor = System.Drawing.Color.White;
             this.btnCerrarSesion.Location = new System.Drawing.Point(14, 486);
             this.btnCerrarSesion.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -126,7 +126,7 @@
             this.btnCambiarPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCambiarPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnCambiarPassword.FillColor = System.Drawing.Color.Black;
-            this.btnCambiarPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCambiarPassword.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCambiarPassword.ForeColor = System.Drawing.Color.White;
             this.btnCambiarPassword.Location = new System.Drawing.Point(14, 443);
             this.btnCambiarPassword.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -144,7 +144,7 @@
             this.btnFacturas.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnFacturas.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnFacturas.FillColor = System.Drawing.Color.Black;
-            this.btnFacturas.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnFacturas.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFacturas.ForeColor = System.Drawing.Color.White;
             this.btnFacturas.Location = new System.Drawing.Point(14, 403);
             this.btnFacturas.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -161,7 +161,7 @@
             this.btnCotizaciones.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCotizaciones.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnCotizaciones.FillColor = System.Drawing.Color.Black;
-            this.btnCotizaciones.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCotizaciones.Font = new System.Drawing.Font("Inter SemiBold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCotizaciones.ForeColor = System.Drawing.Color.White;
             this.btnCotizaciones.Location = new System.Drawing.Point(14, 363);
             this.btnCotizaciones.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -179,7 +179,7 @@
             this.btnVolumen.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnVolumen.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnVolumen.FillColor = System.Drawing.Color.Black;
-            this.btnVolumen.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnVolumen.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolumen.ForeColor = System.Drawing.Color.White;
             this.btnVolumen.Location = new System.Drawing.Point(14, 320);
             this.btnVolumen.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -196,7 +196,7 @@
             this.btnTerreno.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnTerreno.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnTerreno.FillColor = System.Drawing.Color.Black;
-            this.btnTerreno.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnTerreno.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTerreno.ForeColor = System.Drawing.Color.White;
             this.btnTerreno.Location = new System.Drawing.Point(14, 279);
             this.btnTerreno.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -214,7 +214,7 @@
             this.btnMateriales.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnMateriales.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnMateriales.FillColor = System.Drawing.Color.Black;
-            this.btnMateriales.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMateriales.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMateriales.ForeColor = System.Drawing.Color.White;
             this.btnMateriales.Location = new System.Drawing.Point(14, 237);
             this.btnMateriales.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -232,7 +232,7 @@
             this.btnClientes.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnClientes.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnClientes.FillColor = System.Drawing.Color.Black;
-            this.btnClientes.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnClientes.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClientes.ForeColor = System.Drawing.Color.White;
             this.btnClientes.Location = new System.Drawing.Point(14, 196);
             this.btnClientes.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -250,7 +250,7 @@
             this.btnGestionUsuarios.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnGestionUsuarios.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnGestionUsuarios.FillColor = System.Drawing.Color.Black;
-            this.btnGestionUsuarios.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGestionUsuarios.Font = new System.Drawing.Font("Inter SemiBold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGestionUsuarios.ForeColor = System.Drawing.Color.White;
             this.btnGestionUsuarios.Location = new System.Drawing.Point(14, 155);
             this.btnGestionUsuarios.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -269,7 +269,7 @@
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Location = new System.Drawing.Point(14, 84);
             this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);

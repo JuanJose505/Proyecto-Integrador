@@ -60,6 +60,15 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views.Terreno
             ConfigurarGrid();
         }
 
+        // ============================================================
+        // CARGA DE COMBO BOXES — Se cargan los combo boxes al seleccionar la pestaña de terreno
+        // ============================================================
+        public void CargarCombos()
+        {
+            CargarMateriales();
+            CargarClientes();
+        }
+
         // Llena el ComboBox de materiales con los datos del repositorio
         private void CargarMateriales()
         {
@@ -150,6 +159,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views.Terreno
             // El volumen ya no es válido porque cambiaron los puntos
             _ultimoVolumen = 0;
             _vista.lblVolumen.Text = "Volumen: —";
+
         }
 
         // ============================================================

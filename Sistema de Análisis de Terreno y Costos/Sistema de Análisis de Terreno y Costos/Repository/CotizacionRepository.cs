@@ -23,7 +23,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Repository
                 Directory.CreateDirectory(directorio);
             }
 
-            string texto = $"{cotizacion.id},{cotizacion.Cliente.Nombre},{cotizacion.Material.Nombre},{cotizacion.Volumen},{cotizacion.Total},{cotizacion.Fecha},{cotizacion.Estado}";
+            string texto = $"{cotizacion.id},{cotizacion.Cliente.Identificacion},{cotizacion.Material.Nombre},{cotizacion.Volumen.ToString(System.Globalization.CultureInfo.InvariantCulture)},{cotizacion.Total.ToString(System.Globalization.CultureInfo.InvariantCulture)},{cotizacion.Fecha:yyyy-MM-dd HH:mm:ss},{cotizacion.Estado}";
             File.AppendAllText(RUTA, texto + Environment.NewLine);
         }
 
@@ -44,11 +44,11 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Repository
                 var cotizacion = new CotizacionModels
                 {
                     id = datos[0],
-                    Cliente = new ClienteModels { Nombre = datos[1]},
+                    Cliente = new ClienteModels { Identificacion = datos[1]},
                     Material = new MaterialModels { Nombre = datos[2]},
-                    Volumen = decimal.Parse(datos[3]),
-                    Total = decimal.Parse(datos[4]),
-                    Fecha = DateTime.Parse(datos[5]),
+                    Volumen = decimal.Parse(datos[3], System.Globalization.CultureInfo.InvariantCulture),
+                    Total = decimal.Parse(datos[4], System.Globalization.CultureInfo.InvariantCulture),
+                    Fecha = DateTime.ParseExact(datos[5], "yyyy-MM-dd HH:mm:ss", null),
                     Estado = bool.Parse(datos[6])
                 };
 
@@ -82,7 +82,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Repository
 
             foreach (var c in cotizaciones)
             {
-                string texto = $"{c.id},{c.Cliente.Nombre},{c.Material.Nombre},{c.Volumen},{c.Total},{c.Fecha},{c.Estado}";
+                string texto = $"{c.id},{c.Cliente.Nombre},{c.Material.Nombre},{c.Volumen.ToString(System.Globalization.CultureInfo.InvariantCulture)},{c.Total.ToString(System.Globalization.CultureInfo.InvariantCulture)},{c.Fecha:yyyy-MM-dd HH:mm:ss},{c.Estado}";
                 lineas.Add(texto);
             }
 
@@ -105,7 +105,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Repository
 
             foreach (var c in cotizaciones)
             {
-                string texto = $"{c.id},{c.Cliente.Nombre},{c.Material.Nombre},{c.Volumen},{c.Total},{c.Fecha},{c.Estado}";
+                string texto = $"{c.id},{c.Cliente.Nombre},{c.Material.Nombre},{c.Volumen.ToString(System.Globalization.CultureInfo.InvariantCulture)},{c.Total.ToString(System.Globalization.CultureInfo.InvariantCulture)},{c.Fecha:yyyy-MM-dd HH:mm:ss},{c.Estado}";
                 lineas.Add(texto);
             }
 

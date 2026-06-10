@@ -42,9 +42,9 @@
             this.btnLimpiarMaterial = new Guna.UI2.WinForms.Guna2Button();
             this.dgvMateriales = new Guna.UI2.WinForms.Guna2DataGridView();
             this.label3 = new System.Windows.Forms.Label();
-            this.cmbEstadoMaterial = new Guna.UI2.WinForms.Guna2ComboBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.cmbEstadoMaterial = new Guna.UI2.WinForms.Guna2ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.numPrecio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMateriales)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -54,22 +54,22 @@
             // lblGestionMateriales
             // 
             this.lblGestionMateriales.AutoSize = true;
-            this.lblGestionMateriales.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGestionMateriales.Font = new System.Drawing.Font("Inter", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGestionMateriales.ForeColor = System.Drawing.SystemColors.Control;
             this.lblGestionMateriales.Location = new System.Drawing.Point(174, 51);
             this.lblGestionMateriales.Name = "lblGestionMateriales";
-            this.lblGestionMateriales.Size = new System.Drawing.Size(375, 37);
+            this.lblGestionMateriales.Size = new System.Drawing.Size(357, 33);
             this.lblGestionMateriales.TabIndex = 25;
             this.lblGestionMateriales.Text = "GESTIÓN DE MATERIALES";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Inter SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(3, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 20);
+            this.label1.Size = new System.Drawing.Size(120, 20);
             this.label1.TabIndex = 26;
             this.label1.Text = "💰 Precio (m³):";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -77,11 +77,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 20);
+            this.label2.Size = new System.Drawing.Size(99, 20);
             this.label2.TabIndex = 27;
             this.label2.Text = "🧱 Material:";
             // 
@@ -97,7 +97,7 @@
             this.txtNombreMaterial.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtNombreMaterial.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.txtNombreMaterial.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNombreMaterial.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtNombreMaterial.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombreMaterial.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNombreMaterial.Location = new System.Drawing.Point(2, 35);
             this.txtNombreMaterial.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -113,7 +113,7 @@
             this.numPrecio.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.numPrecio.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.numPrecio.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.numPrecio.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.numPrecio.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numPrecio.ForeColor = System.Drawing.Color.White;
             this.numPrecio.Increment = new decimal(new int[] {
             100,
@@ -140,7 +140,7 @@
             this.btnAgregarMaterial.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnAgregarMaterial.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnAgregarMaterial.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
-            this.btnAgregarMaterial.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarMaterial.Font = new System.Drawing.Font("Inter SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarMaterial.ForeColor = System.Drawing.Color.White;
             this.btnAgregarMaterial.Location = new System.Drawing.Point(2, 1);
             this.btnAgregarMaterial.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -159,7 +159,7 @@
             this.btnEditarMaterial.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnEditarMaterial.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnEditarMaterial.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
-            this.btnEditarMaterial.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditarMaterial.Font = new System.Drawing.Font("Inter SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarMaterial.ForeColor = System.Drawing.Color.White;
             this.btnEditarMaterial.Location = new System.Drawing.Point(2, 64);
             this.btnEditarMaterial.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -178,7 +178,7 @@
             this.btnEliminarMaterial.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnEliminarMaterial.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnEliminarMaterial.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
-            this.btnEliminarMaterial.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarMaterial.Font = new System.Drawing.Font("Inter SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarMaterial.ForeColor = System.Drawing.Color.White;
             this.btnEliminarMaterial.Location = new System.Drawing.Point(119, 1);
             this.btnEliminarMaterial.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -197,7 +197,7 @@
             this.btnLimpiarMaterial.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLimpiarMaterial.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnLimpiarMaterial.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
-            this.btnLimpiarMaterial.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiarMaterial.Font = new System.Drawing.Font("Inter SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiarMaterial.ForeColor = System.Drawing.Color.White;
             this.btnLimpiarMaterial.Location = new System.Drawing.Point(119, 64);
             this.btnLimpiarMaterial.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -267,34 +267,13 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Inter SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(3, 164);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 20);
+            this.label3.Size = new System.Drawing.Size(89, 20);
             this.label3.TabIndex = 39;
             this.label3.Text = "🔄 Estado:";
-            // 
-            // cmbEstadoMaterial
-            // 
-            this.cmbEstadoMaterial.BackColor = System.Drawing.Color.Transparent;
-            this.cmbEstadoMaterial.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.cmbEstadoMaterial.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbEstadoMaterial.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbEstadoMaterial.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.cmbEstadoMaterial.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbEstadoMaterial.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbEstadoMaterial.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cmbEstadoMaterial.ForeColor = System.Drawing.Color.White;
-            this.cmbEstadoMaterial.ItemHeight = 30;
-            this.cmbEstadoMaterial.Items.AddRange(new object[] {
-            "Activo",
-            "Inactivo"});
-            this.cmbEstadoMaterial.Location = new System.Drawing.Point(2, 197);
-            this.cmbEstadoMaterial.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
-            this.cmbEstadoMaterial.Name = "cmbEstadoMaterial";
-            this.cmbEstadoMaterial.Size = new System.Drawing.Size(231, 36);
-            this.cmbEstadoMaterial.TabIndex = 40;
             // 
             // tableLayoutPanel1
             // 
@@ -307,7 +286,7 @@
             this.tableLayoutPanel1.Controls.Add(this.numPrecio, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 2);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(46, 133);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 6;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.01061F));
@@ -329,13 +308,34 @@
             this.tableLayoutPanel2.Controls.Add(this.btnEditarMaterial, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.btnLimpiarMaterial, 1, 1);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(46, 387);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(235, 127);
             this.tableLayoutPanel2.TabIndex = 42;
+            // 
+            // cmbEstadoMaterial
+            // 
+            this.cmbEstadoMaterial.BackColor = System.Drawing.Color.Transparent;
+            this.cmbEstadoMaterial.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.cmbEstadoMaterial.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbEstadoMaterial.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbEstadoMaterial.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.cmbEstadoMaterial.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbEstadoMaterial.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbEstadoMaterial.Font = new System.Drawing.Font("Inter SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbEstadoMaterial.ForeColor = System.Drawing.Color.White;
+            this.cmbEstadoMaterial.ItemHeight = 30;
+            this.cmbEstadoMaterial.Items.AddRange(new object[] {
+            "Activo",
+            "Inactivo"});
+            this.cmbEstadoMaterial.Location = new System.Drawing.Point(2, 197);
+            this.cmbEstadoMaterial.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.cmbEstadoMaterial.Name = "cmbEstadoMaterial";
+            this.cmbEstadoMaterial.Size = new System.Drawing.Size(231, 36);
+            this.cmbEstadoMaterial.TabIndex = 40;
             // 
             // MaterialForm
             // 
@@ -375,8 +375,8 @@
         private Guna.UI2.WinForms.Guna2Button btnLimpiarMaterial;
         private Guna.UI2.WinForms.Guna2DataGridView dgvMateriales;
         private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2ComboBox cmbEstadoMaterial;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private Guna.UI2.WinForms.Guna2ComboBox cmbEstadoMaterial;
     }
 }
