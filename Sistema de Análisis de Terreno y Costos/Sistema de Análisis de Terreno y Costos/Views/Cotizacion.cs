@@ -22,7 +22,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         private RolUsuario rol;
         CotizacionController cotizacionController = new CotizacionController();
         ClienteController clienteController = new ClienteController();
-       
+        FacturaController facturaController = new FacturaController();
 
         public Cotizacion(RolUsuario rol)
         {
@@ -147,6 +147,25 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
             }
         }
 
+        private void btnGenerarFactura_Click(object sender, EventArgs e)
+        {
+            if (dgvCotizacion.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Seleccione una cotización", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
+            string id = dgvCotizacion.SelectedRows[0].Cells["ID"].Value.ToString();
+            string resultado = facturaController.CrearFactura(id);
+
+            if (resultado == "ok")
+            {
+                MessageBox.Show("Factura generada correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show(resultado, "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 }

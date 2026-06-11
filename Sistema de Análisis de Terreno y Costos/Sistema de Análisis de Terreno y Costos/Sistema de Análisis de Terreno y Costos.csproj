@@ -67,6 +67,7 @@
     <Compile Include="CalcVolumen\CalculoVolumen.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\CotizacionController.cs" />
+    <Compile Include="Controllers\FacturaController.cs" />
     <Compile Include="Controllers\MaterialController.cs" />
     <Compile Include="Controllers\TerrenoController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
@@ -75,12 +76,14 @@
     <Compile Include="Models\ClienteModels.cs" />
     <Compile Include="Models\CotizacionDGV.cs" />
     <Compile Include="Models\CotizacionModels.cs" />
+    <Compile Include="Models\FacturaModels.cs" />
     <Compile Include="Models\MaterialModels.cs" />
     <Compile Include="Models\PersonaModels.cs" />
     <Compile Include="Models\PuntoTerreno.cs" />
     <Compile Include="Models\UsuarioModels.cs" />
     <Compile Include="Repository\ClienteRepository.cs" />
     <Compile Include="Repository\CotizacionRepository.cs" />
+    <Compile Include="Repository\FacturaRepository.cs" />
     <Compile Include="Repository\ITerrenoRepository.cs" />
     <Compile Include="Repository\MaterialRepository.cs" />
     <Compile Include="Repository\TerrenoRepository.cs" />
@@ -108,6 +111,12 @@
     </Compile>
     <Compile Include="Views\Cotizacion.Designer.cs">
       <DependentUpon>Cotizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Facturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Facturas.Designer.cs">
+      <DependentUpon>Facturas.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\GestionUsuariosForm.cs">
       <SubType>Form</SubType>
@@ -175,6 +184,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Cotizacion.resx">
       <DependentUpon>Cotizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Facturas.resx">
+      <DependentUpon>Facturas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\GestionUsuariosForm.resx">
       <DependentUpon>GestionUsuariosForm.cs</DependentUpon>

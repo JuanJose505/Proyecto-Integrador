@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label2 = new System.Windows.Forms.Label();
             this.dgvCotizacion = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -48,48 +48,49 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Inter", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(214, 58);
+            this.label2.Location = new System.Drawing.Point(285, 71);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(325, 33);
+            this.label2.Size = new System.Drawing.Size(407, 41);
             this.label2.TabIndex = 22;
             this.label2.Text = "Cotización de Servicios";
             // 
             // dgvCotizacion
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.dgvCotizacion.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.dgvCotizacion.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvCotizacion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvCotizacion.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.dgvCotizacion.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvCotizacion.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCotizacion.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvCotizacion.ColumnHeadersHeight = 4;
             this.dgvCotizacion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvCotizacion.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvCotizacion.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvCotizacion.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvCotizacion.Location = new System.Drawing.Point(22, 33);
-            this.dgvCotizacion.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.dgvCotizacion.Location = new System.Drawing.Point(29, 41);
+            this.dgvCotizacion.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dgvCotizacion.Name = "dgvCotizacion";
             this.dgvCotizacion.ReadOnly = true;
             this.dgvCotizacion.RowHeadersVisible = false;
             this.dgvCotizacion.RowHeadersWidth = 62;
             this.dgvCotizacion.RowTemplate.Height = 28;
-            this.dgvCotizacion.Size = new System.Drawing.Size(643, 267);
+            this.dgvCotizacion.Size = new System.Drawing.Size(857, 329);
             this.dgvCotizacion.TabIndex = 50;
             this.dgvCotizacion.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvCotizacion.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -123,10 +124,10 @@
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel1);
             this.guna2GradientPanel1.Controls.Add(this.txtBuscar);
             this.guna2GradientPanel1.Controls.Add(this.dgvCotizacion);
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(35, 103);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(54, 127);
+            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(691, 364);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(921, 448);
             this.guna2GradientPanel1.TabIndex = 30;
             // 
             // btnImprimirCotizacion
@@ -140,10 +141,10 @@
             this.btnImprimirCotizacion.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnImprimirCotizacion.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImprimirCotizacion.ForeColor = System.Drawing.Color.White;
-            this.btnImprimirCotizacion.Location = new System.Drawing.Point(453, 308);
-            this.btnImprimirCotizacion.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.btnImprimirCotizacion.Location = new System.Drawing.Point(604, 379);
+            this.btnImprimirCotizacion.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.btnImprimirCotizacion.Name = "btnImprimirCotizacion";
-            this.btnImprimirCotizacion.Size = new System.Drawing.Size(104, 39);
+            this.btnImprimirCotizacion.Size = new System.Drawing.Size(139, 48);
             this.btnImprimirCotizacion.TabIndex = 55;
             this.btnImprimirCotizacion.Text = "📜 Ver PDF";
             this.btnImprimirCotizacion.Click += new System.EventHandler(this.btnImprimirCotizacion_Click);
@@ -159,10 +160,10 @@
             this.btnCambiarEstado.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnCambiarEstado.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCambiarEstado.ForeColor = System.Drawing.Color.White;
-            this.btnCambiarEstado.Location = new System.Drawing.Point(345, 308);
-            this.btnCambiarEstado.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.btnCambiarEstado.Location = new System.Drawing.Point(460, 379);
+            this.btnCambiarEstado.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.btnCambiarEstado.Name = "btnCambiarEstado";
-            this.btnCambiarEstado.Size = new System.Drawing.Size(104, 39);
+            this.btnCambiarEstado.Size = new System.Drawing.Size(139, 48);
             this.btnCambiarEstado.TabIndex = 54;
             this.btnCambiarEstado.Text = "🔁 Cambiar estado";
             this.btnCambiarEstado.Visible = false;
@@ -179,22 +180,23 @@
             this.btnGenerarFactura.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnGenerarFactura.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerarFactura.ForeColor = System.Drawing.Color.White;
-            this.btnGenerarFactura.Location = new System.Drawing.Point(561, 308);
-            this.btnGenerarFactura.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.btnGenerarFactura.Location = new System.Drawing.Point(748, 379);
+            this.btnGenerarFactura.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.btnGenerarFactura.Name = "btnGenerarFactura";
-            this.btnGenerarFactura.Size = new System.Drawing.Size(104, 39);
+            this.btnGenerarFactura.Size = new System.Drawing.Size(139, 48);
             this.btnGenerarFactura.TabIndex = 53;
             this.btnGenerarFactura.Text = "📃 Facturar";
+            this.btnGenerarFactura.Click += new System.EventHandler(this.btnGenerarFactura_Click);
             // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Inter", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.Control;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(22, 320);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(29, 394);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(135, 21);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(171, 25);
             this.guna2HtmlLabel1.TabIndex = 52;
             this.guna2HtmlLabel1.Text = "Buscar cotizacion";
             // 
@@ -212,24 +214,25 @@
             this.txtBuscar.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtBuscar.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBuscar.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtBuscar.Location = new System.Drawing.Point(170, 317);
-            this.txtBuscar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtBuscar.Location = new System.Drawing.Point(227, 390);
+            this.txtBuscar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.PlaceholderText = "Ingrese el nombre";
             this.txtBuscar.SelectedText = "";
-            this.txtBuscar.Size = new System.Drawing.Size(153, 28);
+            this.txtBuscar.Size = new System.Drawing.Size(204, 34);
             this.txtBuscar.TabIndex = 51;
             this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
             // Cotizacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(740, 501);
+            this.ClientSize = new System.Drawing.Size(987, 617);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Cotizacion";
             this.Text = "Cotizacion";
             this.Activated += new System.EventHandler(this.Cotizacion_Activated);

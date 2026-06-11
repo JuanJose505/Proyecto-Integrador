@@ -120,5 +120,11 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
             Cotizacion cotizacion = new Cotizacion(rol);
             AbrirFormulario(cotizacion);
         }
+
+        private void btnFacturas_Click(object sender, EventArgs e)
+        {
+            Facturas factura = new Facturas(rol);
+            AbrirFormulario(factura);
+        }
     }
 }
