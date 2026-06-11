@@ -30,21 +30,16 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 
             ctrl3D = new Terreno3DControl { Dock = DockStyle.Fill };
             panelTerreno.Controls.Add(ctrl3D);
-
             _presenter = new TerrenoVolumenPresenter(this);
-
         }
         // ── Evento: Form cargado ─────────────────────────────────────
         private void TerrenoVolumen_Load(object sender, EventArgs e)
         {
             _presenter.CargarDatosIniciales();
-        }
-
-        //── Evento: Form activado ─────────────────────────────────────
-        private void TerrenoVolumen_Activated(object sender, EventArgs e)
-        {
             _presenter.CargarCombos();
         }
+
+
         private void cmbMaterial_SelectedIndexChanged(object sender, EventArgs e)
         {
             _presenter.ActualizarCosto();

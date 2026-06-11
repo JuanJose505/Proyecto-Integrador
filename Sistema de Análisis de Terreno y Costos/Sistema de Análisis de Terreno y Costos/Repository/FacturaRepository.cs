@@ -11,7 +11,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Repository
     public class FacturaRepository
     {
         private static readonly string RUTA = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "db", "facturas.txt");
-        CotizacionRepository cotizacionRepo = new CotizacionRepository();
+
         public void GuardarFactura(FacturaModels factura)
         {
             string directorio = Path.GetDirectoryName(RUTA);

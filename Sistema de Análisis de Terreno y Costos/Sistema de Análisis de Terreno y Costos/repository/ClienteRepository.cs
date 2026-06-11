@@ -15,14 +15,14 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
         private static readonly string RUTA = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "db", "clientes.csv");
         ClienteModels modelo = new ClienteModels();
 
-        public void Registrar(String nombre, String identificacion, String telefono, String correo)
+        public void Registrar(string nombre, string identificacion, string telefono, string correo)
         {
             modelo.Nombre = nombre;
             modelo.Identificacion = identificacion;
             modelo.Telefono = telefono;
             modelo.Correo = correo;
 
-            String linea = $"{modelo.Nombre};{modelo.Identificacion};{modelo.Telefono};{modelo.Correo}";
+            string linea = $"{modelo.Nombre};{modelo.Identificacion};{modelo.Telefono};{modelo.Correo}";
 
             // Crear el directorio si no existe
             string directorio = Path.GetDirectoryName(RUTA);
@@ -47,10 +47,10 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                     var datos = linea.Split(';');
                     if (datos.Length == 4)
                     {
-                        String nombre = datos[0];
-                        String identificacion = datos[1];
-                        String telefono = datos[2];
-                        String correo = datos[3];
+                        string nombre = datos[0];
+                        string identificacion = datos[1];
+                        string telefono = datos[2];
+                        string correo = datos[3];
                         ClienteModels cliente = new ClienteModels();
                         cliente.Nombre = nombre;
                         cliente.Identificacion = identificacion;

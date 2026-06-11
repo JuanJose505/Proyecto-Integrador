@@ -14,7 +14,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
     
     public class UsuarioModels : PersonaModels
     {
-        private static readonly string RUTA = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "db", "usuarios.csv");
+        
         public string Username { get; set; }
         public string Password { get; set; }
         public RolUsuario Rol { get; set; }

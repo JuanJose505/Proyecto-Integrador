@@ -14,23 +14,22 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbMaterial = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.cmbCliente = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dgvPuntos = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
             this.txtTerrenoX = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtTerrenoY = new System.Windows.Forms.TextBox();
+            this.btnEliminarTerreno = new Guna.UI2.WinForms.Guna2Button();
             this.label6 = new System.Windows.Forms.Label();
             this.txtTerrenoZ = new System.Windows.Forms.TextBox();
-            this.btnEliminarTerreno = new Guna.UI2.WinForms.Guna2Button();
             this.btnAgregarTerreno = new Guna.UI2.WinForms.Guna2Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.lblVolumen = new System.Windows.Forms.Label();
@@ -48,9 +47,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 124);
+            this.label3.Location = new System.Drawing.Point(14, 101);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 25);
+            this.label3.Size = new System.Drawing.Size(85, 20);
             this.label3.TabIndex = 4;
             this.label3.Text = "Valor m3:";
             // 
@@ -59,18 +59,20 @@
             this.cmbMaterial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.cmbMaterial.ForeColor = System.Drawing.Color.White;
             this.cmbMaterial.FormattingEnabled = true;
-            this.cmbMaterial.Location = new System.Drawing.Point(125, 78);
+            this.cmbMaterial.Location = new System.Drawing.Point(94, 63);
+            this.cmbMaterial.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbMaterial.Name = "cmbMaterial";
-            this.cmbMaterial.Size = new System.Drawing.Size(112, 33);
+            this.cmbMaterial.Size = new System.Drawing.Size(85, 28);
             this.cmbMaterial.TabIndex = 3;
             this.cmbMaterial.SelectedIndexChanged += new System.EventHandler(this.cmbMaterial_SelectedIndexChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 89);
+            this.label2.Location = new System.Drawing.Point(14, 72);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 25);
+            this.label2.Size = new System.Drawing.Size(78, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Material:";
             // 
@@ -79,28 +81,22 @@
             this.cmbCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.cmbCliente.ForeColor = System.Drawing.Color.White;
             this.cmbCliente.FormattingEnabled = true;
-            this.cmbCliente.Location = new System.Drawing.Point(125, 39);
+            this.cmbCliente.Location = new System.Drawing.Point(94, 32);
+            this.cmbCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbCliente.Name = "cmbCliente";
-            this.cmbCliente.Size = new System.Drawing.Size(111, 33);
+            this.cmbCliente.Size = new System.Drawing.Size(84, 28);
             this.cmbCliente.TabIndex = 1;
             this.cmbCliente.SelectedIndexChanged += new System.EventHandler(this.cmbCliente_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 47);
+            this.label1.Location = new System.Drawing.Point(17, 38);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 25);
+            this.label1.Size = new System.Drawing.Size(70, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Cliente:";
-            // 
-            // guna2BorderlessForm1
-            // 
-            this.guna2BorderlessForm1.BorderRadius = 14;
-            this.guna2BorderlessForm1.ContainerControl = this;
-            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2BorderlessForm1.ResizeForm = false;
-            this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
             // groupBox2
             // 
@@ -115,9 +111,11 @@
             this.groupBox2.Controls.Add(this.btnAgregarTerreno);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(23, 178);
+            this.groupBox2.Location = new System.Drawing.Point(17, 145);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(306, 288);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(230, 234);
             this.groupBox2.TabIndex = 17;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "TERRENO ORIGINAL";
@@ -130,41 +128,43 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvPuntos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.dgvPuntos.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvPuntos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvPuntos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvPuntos.ColumnHeadersHeight = 38;
             this.dgvPuntos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvPuntos.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvPuntos.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvPuntos.EnableHeadersVisualStyles = false;
             this.dgvPuntos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.dgvPuntos.Location = new System.Drawing.Point(15, 29);
+            this.dgvPuntos.Location = new System.Drawing.Point(11, 24);
+            this.dgvPuntos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvPuntos.Name = "dgvPuntos";
             this.dgvPuntos.RowHeadersVisible = false;
             this.dgvPuntos.RowHeadersWidth = 51;
             this.dgvPuntos.RowTemplate.Height = 32;
-            this.dgvPuntos.Size = new System.Drawing.Size(285, 166);
+            this.dgvPuntos.Size = new System.Drawing.Size(214, 135);
             this.dgvPuntos.TabIndex = 0;
             this.dgvPuntos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPuntos_CellContentClick);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 206);
+            this.label4.Location = new System.Drawing.Point(4, 167);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(27, 25);
+            this.label4.Size = new System.Drawing.Size(21, 20);
             this.label4.TabIndex = 1;
             this.label4.Text = "X";
             // 
@@ -172,17 +172,19 @@
             // 
             this.txtTerrenoX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.txtTerrenoX.ForeColor = System.Drawing.Color.White;
-            this.txtTerrenoX.Location = new System.Drawing.Point(39, 201);
+            this.txtTerrenoX.Location = new System.Drawing.Point(29, 163);
+            this.txtTerrenoX.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtTerrenoX.Name = "txtTerrenoX";
-            this.txtTerrenoX.Size = new System.Drawing.Size(55, 30);
+            this.txtTerrenoX.Size = new System.Drawing.Size(42, 26);
             this.txtTerrenoX.TabIndex = 2;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(100, 206);
+            this.label5.Location = new System.Drawing.Point(75, 167);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(26, 25);
+            this.label5.Size = new System.Drawing.Size(21, 20);
             this.label5.TabIndex = 3;
             this.label5.Text = "Y";
             // 
@@ -190,28 +192,11 @@
             // 
             this.txtTerrenoY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.txtTerrenoY.ForeColor = System.Drawing.Color.White;
-            this.txtTerrenoY.Location = new System.Drawing.Point(125, 203);
+            this.txtTerrenoY.Location = new System.Drawing.Point(94, 165);
+            this.txtTerrenoY.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtTerrenoY.Name = "txtTerrenoY";
-            this.txtTerrenoY.Size = new System.Drawing.Size(55, 30);
+            this.txtTerrenoY.Size = new System.Drawing.Size(42, 26);
             this.txtTerrenoY.TabIndex = 4;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(191, 208);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(25, 25);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Z";
-            // 
-            // txtTerrenoZ
-            // 
-            this.txtTerrenoZ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.txtTerrenoZ.ForeColor = System.Drawing.Color.White;
-            this.txtTerrenoZ.Location = new System.Drawing.Point(222, 203);
-            this.txtTerrenoZ.Name = "txtTerrenoZ";
-            this.txtTerrenoZ.Size = new System.Drawing.Size(55, 30);
-            this.txtTerrenoZ.TabIndex = 6;
             // 
             // btnEliminarTerreno
             // 
@@ -224,12 +209,33 @@
             this.btnEliminarTerreno.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnEliminarTerreno.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.btnEliminarTerreno.ForeColor = System.Drawing.Color.White;
-            this.btnEliminarTerreno.Location = new System.Drawing.Point(177, 247);
+            this.btnEliminarTerreno.Location = new System.Drawing.Point(133, 201);
+            this.btnEliminarTerreno.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEliminarTerreno.Name = "btnEliminarTerreno";
-            this.btnEliminarTerreno.Size = new System.Drawing.Size(100, 34);
+            this.btnEliminarTerreno.Size = new System.Drawing.Size(75, 28);
             this.btnEliminarTerreno.TabIndex = 7;
             this.btnEliminarTerreno.Text = "Eliminar";
             this.btnEliminarTerreno.Click += new System.EventHandler(this.btnEliminarTerreno_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(143, 169);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(20, 20);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Z";
+            // 
+            // txtTerrenoZ
+            // 
+            this.txtTerrenoZ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.txtTerrenoZ.ForeColor = System.Drawing.Color.White;
+            this.txtTerrenoZ.Location = new System.Drawing.Point(166, 165);
+            this.txtTerrenoZ.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTerrenoZ.Name = "txtTerrenoZ";
+            this.txtTerrenoZ.Size = new System.Drawing.Size(42, 26);
+            this.txtTerrenoZ.TabIndex = 6;
             // 
             // btnAgregarTerreno
             // 
@@ -242,9 +248,10 @@
             this.btnAgregarTerreno.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnAgregarTerreno.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.btnAgregarTerreno.ForeColor = System.Drawing.Color.White;
-            this.btnAgregarTerreno.Location = new System.Drawing.Point(28, 247);
+            this.btnAgregarTerreno.Location = new System.Drawing.Point(21, 201);
+            this.btnAgregarTerreno.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAgregarTerreno.Name = "btnAgregarTerreno";
-            this.btnAgregarTerreno.Size = new System.Drawing.Size(100, 29);
+            this.btnAgregarTerreno.Size = new System.Drawing.Size(75, 24);
             this.btnAgregarTerreno.TabIndex = 8;
             this.btnAgregarTerreno.Text = "Agregar";
             this.btnAgregarTerreno.Click += new System.EventHandler(this.btnAgregarTerreno_Click);
@@ -256,9 +263,11 @@
             this.groupBox4.Controls.Add(this.btnCalcular);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.Color.White;
-            this.groupBox4.Location = new System.Drawing.Point(23, 472);
+            this.groupBox4.Location = new System.Drawing.Point(17, 384);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(306, 158);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Size = new System.Drawing.Size(230, 128);
             this.groupBox4.TabIndex = 19;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "RESULTADOS";
@@ -267,9 +276,10 @@
             // 
             this.lblVolumen.AutoSize = true;
             this.lblVolumen.ForeColor = System.Drawing.Color.White;
-            this.lblVolumen.Location = new System.Drawing.Point(19, 36);
+            this.lblVolumen.Location = new System.Drawing.Point(14, 29);
+            this.lblVolumen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblVolumen.Name = "lblVolumen";
-            this.lblVolumen.Size = new System.Drawing.Size(118, 25);
+            this.lblVolumen.Size = new System.Drawing.Size(95, 20);
             this.lblVolumen.TabIndex = 21;
             this.lblVolumen.Text = "Volumen: -";
             // 
@@ -284,9 +294,10 @@
             this.btnGuardarCotizacion.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnGuardarCotizacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarCotizacion.ForeColor = System.Drawing.Color.White;
-            this.btnGuardarCotizacion.Location = new System.Drawing.Point(164, 110);
+            this.btnGuardarCotizacion.Location = new System.Drawing.Point(123, 89);
+            this.btnGuardarCotizacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnGuardarCotizacion.Name = "btnGuardarCotizacion";
-            this.btnGuardarCotizacion.Size = new System.Drawing.Size(113, 34);
+            this.btnGuardarCotizacion.Size = new System.Drawing.Size(85, 28);
             this.btnGuardarCotizacion.TabIndex = 30;
             this.btnGuardarCotizacion.Text = "Guardar ";
             this.btnGuardarCotizacion.Click += new System.EventHandler(this.btnGuardarCotizacion_Click);
@@ -302,9 +313,10 @@
             this.btnCalcular.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcular.ForeColor = System.Drawing.Color.White;
-            this.btnCalcular.Location = new System.Drawing.Point(20, 110);
+            this.btnCalcular.Location = new System.Drawing.Point(15, 89);
+            this.btnCalcular.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(117, 34);
+            this.btnCalcular.Size = new System.Drawing.Size(88, 28);
             this.btnCalcular.TabIndex = 29;
             this.btnCalcular.Text = "Calcular ";
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
@@ -319,9 +331,11 @@
             this.groupBox5.Controls.Add(this.label2);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.ForeColor = System.Drawing.Color.White;
-            this.groupBox5.Location = new System.Drawing.Point(23, 1);
+            this.groupBox5.Location = new System.Drawing.Point(17, 1);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(306, 171);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox5.Size = new System.Drawing.Size(230, 139);
             this.groupBox5.TabIndex = 20;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "DATOS GENERALES";
@@ -329,33 +343,35 @@
             // labValor
             // 
             this.labValor.AutoSize = true;
-            this.labValor.Location = new System.Drawing.Point(145, 124);
+            this.labValor.Location = new System.Drawing.Point(109, 101);
+            this.labValor.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labValor.Name = "labValor";
-            this.labValor.Size = new System.Drawing.Size(59, 25);
+            this.labValor.Size = new System.Drawing.Size(47, 20);
             this.labValor.TabIndex = 5;
             this.labValor.Text = "valor";
             // 
             // panelTerreno
             // 
-            this.panelTerreno.Location = new System.Drawing.Point(357, 12);
+            this.panelTerreno.Location = new System.Drawing.Point(268, 10);
+            this.panelTerreno.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelTerreno.Name = "panelTerreno";
-            this.panelTerreno.Size = new System.Drawing.Size(626, 618);
+            this.panelTerreno.Size = new System.Drawing.Size(470, 502);
             this.panelTerreno.TabIndex = 22;
             // 
             // TerrenoVolumen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(1012, 649);
+            this.ClientSize = new System.Drawing.Size(759, 527);
             this.Controls.Add(this.panelTerreno);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "TerrenoVolumen";
             this.Text = "Terreno";
-            this.Activated += new System.EventHandler(this.TerrenoVolumen_Activated);
             this.Load += new System.EventHandler(this.TerrenoVolumen_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
