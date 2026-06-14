@@ -12,7 +12,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
     public class MaterialController
     {
         // SIMPLIFIQUE CODIGO PONIENDO USING REPOSITORY EN LA PARTE SUPERIOR Y AHORA SE DELEGA AL REPOSITORY, NO AL MODELO//
-        public String Crear(String nombre, decimal precio, String estado)
+        public String Crear(String nombre, decimal precio)
         {
             MaterialRepository material = new MaterialRepository();
 
@@ -31,12 +31,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
                 return "Ingrese un precio valido";
             }
 
-            if (string.IsNullOrWhiteSpace(estado))
-            {
-                return "El estado es obligatorio";
-            }
-
-            material.Crear(nombre, precio, estado);
+            material.Crear(nombre, precio);
 
             return "ok";
         }
@@ -58,14 +53,14 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
             return "ok";
         }
 
-        public String Actualizar(String nombre, decimal precio, String estado)
+        public String Actualizar(String nombre, decimal precio)
         {
             MaterialRepository material = new MaterialRepository();
             if (!ExisteMaterial(nombre))
             {
                 return "El material con el nombre " + nombre + " no existe.";
             }
-            material.Actualizar(nombre, precio, estado);
+            material.Actualizar(nombre, precio);
             return "ok";
         }
 

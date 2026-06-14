@@ -225,7 +225,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views.Terreno
 
             // Mostrar precio unitario siempre que haya material seleccionado
             if (mat != null)
-                _vista.labValor.Text = string.Format("Precio: $ {0:N2} / m3", mat.Precio);
+                _vista.labValor.Text = string.Format("$ {0:N2}", mat.Precio);
             else
                 _vista.labValor.Text = "Precio: —";
             if (_ultimoVolumen <= 0) return;
@@ -235,16 +235,6 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views.Terreno
             _vista.lblVolumen.Text = string.Format(
                 "Volumen: {0:F2} m3\nCosto: $ {1:N2}",
                  _ultimoVolumen, costo);
-            //if (_ultimoVolumen <= 0) return;
-
-            //var mat = _vista.cmbMaterial.SelectedItem as MaterialModels;
-            //if (mat == null) return;
-
-            //decimal costo = mat.Precio * (decimal)_ultimoVolumen;
-
-            //_vista.lblVolumen.Text = string.Format(
-            //    "Volumen: {0:F2} m3     Costo: $ {1:N2}",
-            //    _ultimoVolumen, costo);
         }
 
         public void GuardarCotizacion()

@@ -30,7 +30,6 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
 
                 txtNombreMaterial.Text = fila.Cells[0].Value.ToString();
                 numPrecio.Value = Convert.ToDecimal(fila.Cells[1].Value);
-                cmbEstadoMaterial.Text = fila.Cells[2].Value.ToString();
             }
 
         }
@@ -40,9 +39,8 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
             string nombre = txtNombreMaterial.Text;
             decimal precio = (decimal)numPrecio.Value;
 
-            string estado = cmbEstadoMaterial.Text;
 
-            string resultado = controller.Crear(nombre, precio, estado);
+            string resultado = controller.Crear(nombre, precio);
 
             if (resultado == "ok")
             {
@@ -76,17 +74,14 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
         {
             txtNombreMaterial.Text = "";
             numPrecio.Value = 0;
-            cmbEstadoMaterial.Text = "";
         }
 
         private void btnEditarMaterial_Click(object sender, EventArgs e)
         {
             String nombre = txtNombreMaterial.Text;
             decimal precio = (decimal)numPrecio.Value;
-            string estado = cmbEstadoMaterial.Text;
 
-
-            string resultado = controller.Actualizar(nombre, precio, estado);
+            string resultado = controller.Actualizar(nombre, precio);
 
             if (resultado == "ok")
             {

@@ -12,7 +12,6 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Models
     {
         public string Nombre { get; set; }
         public decimal Precio { get; set; }
-        public string Estado { get; set; }
 
         public MaterialModels() { }
 
