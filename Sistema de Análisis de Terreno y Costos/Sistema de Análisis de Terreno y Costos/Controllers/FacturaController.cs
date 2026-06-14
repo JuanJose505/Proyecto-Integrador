@@ -82,9 +82,9 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Controllers
 
             // ENCABEZADO
             g.FillRectangle(brAzul, L, y, W, 80);
-            g.DrawString("Geoterra S.A.S.", fTitulo, Brushes.White, L + 8, y + 8);
+            g.DrawString("GEO ESPACIO", fTitulo, Brushes.White, L + 8, y + 8);
             g.DrawString("NIT: 123.000.000-1", fNormal, Brushes.White, L + 8, y + 35);
-            g.DrawString("Seccional Aguachica  |  geoterra@unicesar.com", fNormal, Brushes.White, L + 8, y + 50);
+            g.DrawString("Seccional Aguachica  |  geoespacio@unicesar.com", fNormal, Brushes.White, L + 8, y + 50);
             g.DrawString("FACTURA", fTitulo, Brushes.White, L + W - 160, y + 10);
             g.DrawString($"N°: {factura.Numero}", fNormal, Brushes.White, L + W - 160, y + 40);
             g.DrawString($"Fecha: {factura.FechaEmision:dd/MM/yyyy}", fNormal, Brushes.White, L + W - 160, y + 55);

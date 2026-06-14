@@ -50,6 +50,7 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.Views
             string username = usuario.GetUsername(correo);
             guna2Button11.Text = username;
             guna2Button1.Text = rol.ToString();
+            
 
 
 
