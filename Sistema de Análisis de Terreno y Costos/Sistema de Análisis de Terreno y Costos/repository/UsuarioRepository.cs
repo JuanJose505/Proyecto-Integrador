@@ -96,10 +96,8 @@ namespace Sistema_de_Análisis_de_Terreno_y_Costos.repository
                         usuarioo.Telefono = campos[3];
 
                         RolUsuario rol;
-                        if (Enum.TryParse(campos[4], true, out rol))
-                        {
-                            usuarioo.Rol = rol;
-                        }
+                        Enum.TryParse(campos[4], true, out rol);
+                        usuarioo.Rol = rol;
 
                         usuarioo.Activo = bool.Parse(campos[5]);
 
