@@ -266,7 +266,7 @@
             // 
             // panelContenedor
             // 
-            this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.panelContenedor.Location = new System.Drawing.Point(2, 1);
             this.panelContenedor.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.panelContenedor.Name = "panelContenedor";
