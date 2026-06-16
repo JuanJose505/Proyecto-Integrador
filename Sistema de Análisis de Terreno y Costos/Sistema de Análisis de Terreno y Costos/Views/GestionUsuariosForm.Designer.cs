@@ -28,16 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label2 = new System.Windows.Forms.Label();
             this.dgvUsuarios = new Guna.UI2.WinForms.Guna2DataGridView();
             this.btnActualizar = new Guna.UI2.WinForms.Guna2Button();
             this.btnCambiarRol = new Guna.UI2.WinForms.Guna2Button();
             this.btnRestablecerPassword = new Guna.UI2.WinForms.Guna2Button();
             this.btnCambiarEstado = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
+            this.guna2GradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
@@ -45,44 +47,45 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Inter", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(154, 37);
+            this.label2.Location = new System.Drawing.Point(342, 80);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(327, 33);
+            this.label2.Size = new System.Drawing.Size(277, 33);
             this.label2.TabIndex = 20;
-            this.label2.Text = "GESTIÓN DE USUARIOS";
+            this.label2.Text = "Gestión de usuarios";
             // 
             // dgvUsuarios
             // 
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.dgvUsuarios.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
+            this.dgvUsuarios.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
             this.dgvUsuarios.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvUsuarios.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvUsuarios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvUsuarios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.dgvUsuarios.ColumnHeadersHeight = 4;
             this.dgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvUsuarios.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvUsuarios.DefaultCellStyle = dataGridViewCellStyle15;
             this.dgvUsuarios.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvUsuarios.Location = new System.Drawing.Point(45, 95);
-            this.dgvUsuarios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvUsuarios.Location = new System.Drawing.Point(81, 170);
+            this.dgvUsuarios.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvUsuarios.Name = "dgvUsuarios";
             this.dgvUsuarios.RowHeadersVisible = false;
             this.dgvUsuarios.RowHeadersWidth = 51;
             this.dgvUsuarios.RowTemplate.Height = 24;
-            this.dgvUsuarios.Size = new System.Drawing.Size(579, 176);
+            this.dgvUsuarios.Size = new System.Drawing.Size(855, 328);
             this.dgvUsuarios.TabIndex = 21;
             this.dgvUsuarios.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvUsuarios.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -117,10 +120,10 @@
             this.btnActualizar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnActualizar.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActualizar.ForeColor = System.Drawing.Color.White;
-            this.btnActualizar.Location = new System.Drawing.Point(45, 288);
-            this.btnActualizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnActualizar.Location = new System.Drawing.Point(182, 386);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(128, 37);
+            this.btnActualizar.Size = new System.Drawing.Size(171, 46);
             this.btnActualizar.TabIndex = 23;
             this.btnActualizar.Text = "🔄 Actualizar";
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
@@ -135,10 +138,10 @@
             this.btnCambiarRol.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnCambiarRol.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCambiarRol.ForeColor = System.Drawing.Color.White;
-            this.btnCambiarRol.Location = new System.Drawing.Point(344, 288);
-            this.btnCambiarRol.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCambiarRol.Location = new System.Drawing.Point(536, 386);
+            this.btnCambiarRol.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCambiarRol.Name = "btnCambiarRol";
-            this.btnCambiarRol.Size = new System.Drawing.Size(128, 37);
+            this.btnCambiarRol.Size = new System.Drawing.Size(171, 46);
             this.btnCambiarRol.TabIndex = 24;
             this.btnCambiarRol.Text = "👑 Cambiar Rol";
             this.btnCambiarRol.Click += new System.EventHandler(this.btnCambiarRol_Click);
@@ -153,10 +156,10 @@
             this.btnRestablecerPassword.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnRestablecerPassword.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRestablecerPassword.ForeColor = System.Drawing.Color.White;
-            this.btnRestablecerPassword.Location = new System.Drawing.Point(496, 288);
-            this.btnRestablecerPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRestablecerPassword.Location = new System.Drawing.Point(713, 386);
+            this.btnRestablecerPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRestablecerPassword.Name = "btnRestablecerPassword";
-            this.btnRestablecerPassword.Size = new System.Drawing.Size(128, 37);
+            this.btnRestablecerPassword.Size = new System.Drawing.Size(171, 46);
             this.btnRestablecerPassword.TabIndex = 25;
             this.btnRestablecerPassword.Text = "🔑 Restablecer Contraseña";
             this.btnRestablecerPassword.Click += new System.EventHandler(this.btnRestablecerPassword_Click);
@@ -171,32 +174,44 @@
             this.btnCambiarEstado.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnCambiarEstado.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCambiarEstado.ForeColor = System.Drawing.Color.White;
-            this.btnCambiarEstado.Location = new System.Drawing.Point(197, 288);
-            this.btnCambiarEstado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCambiarEstado.Location = new System.Drawing.Point(359, 386);
+            this.btnCambiarEstado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCambiarEstado.Name = "btnCambiarEstado";
-            this.btnCambiarEstado.Size = new System.Drawing.Size(128, 37);
+            this.btnCambiarEstado.Size = new System.Drawing.Size(171, 46);
             this.btnCambiarEstado.TabIndex = 26;
             this.btnCambiarEstado.Text = "🔄 cambiar estado";
             this.btnCambiarEstado.Click += new System.EventHandler(this.btnCambiarEstado_Click);
             // 
+            // guna2GradientPanel1
+            // 
+            this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.guna2GradientPanel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dot;
+            this.guna2GradientPanel1.Controls.Add(this.btnRestablecerPassword);
+            this.guna2GradientPanel1.Controls.Add(this.btnCambiarEstado);
+            this.guna2GradientPanel1.Controls.Add(this.btnCambiarRol);
+            this.guna2GradientPanel1.Controls.Add(this.btnActualizar);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(52, 129);
+            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(923, 446);
+            this.guna2GradientPanel1.TabIndex = 31;
+            // 
             // GestionUsuariosForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(671, 419);
-            this.Controls.Add(this.btnCambiarEstado);
-            this.Controls.Add(this.btnRestablecerPassword);
-            this.Controls.Add(this.btnCambiarRol);
-            this.Controls.Add(this.btnActualizar);
+            this.ClientSize = new System.Drawing.Size(987, 620);
             this.Controls.Add(this.dgvUsuarios);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.guna2GradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "GestionUsuariosForm";
             this.Text = "GestionUsuariosForm";
             this.Load += new System.EventHandler(this.GestionUsuariosForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
+            this.guna2GradientPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -210,5 +225,6 @@
         private Guna.UI2.WinForms.Guna2Button btnCambiarRol;
         private Guna.UI2.WinForms.Guna2Button btnRestablecerPassword;
         private Guna.UI2.WinForms.Guna2Button btnCambiarEstado;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
     }
 }

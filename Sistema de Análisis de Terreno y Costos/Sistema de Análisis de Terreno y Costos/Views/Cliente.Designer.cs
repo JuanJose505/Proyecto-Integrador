@@ -48,11 +48,12 @@
             this.lblRegistrarClientes.AutoSize = true;
             this.lblRegistrarClientes.Font = new System.Drawing.Font("Inter", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRegistrarClientes.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblRegistrarClientes.Location = new System.Drawing.Point(200, 29);
+            this.lblRegistrarClientes.Location = new System.Drawing.Point(354, 83);
+            this.lblRegistrarClientes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRegistrarClientes.Name = "lblRegistrarClientes";
-            this.lblRegistrarClientes.Size = new System.Drawing.Size(289, 33);
+            this.lblRegistrarClientes.Size = new System.Drawing.Size(231, 33);
             this.lblRegistrarClientes.TabIndex = 24;
-            this.lblRegistrarClientes.Text = "REGISTRAR CLIENTE";
+            this.lblRegistrarClientes.Text = "Registrar cliente";
             // 
             // txtNombreCliente
             // 
@@ -68,12 +69,12 @@
             this.txtNombreCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNombreCliente.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombreCliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNombreCliente.Location = new System.Drawing.Point(2, 41);
-            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtNombreCliente.Location = new System.Drawing.Point(3, 52);
+            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNombreCliente.Name = "txtNombreCliente";
             this.txtNombreCliente.PlaceholderText = "Ingrese el nombre";
             this.txtNombreCliente.SelectedText = "";
-            this.txtNombreCliente.Size = new System.Drawing.Size(258, 28);
+            this.txtNombreCliente.Size = new System.Drawing.Size(344, 34);
             this.txtNombreCliente.TabIndex = 25;
             // 
             // txtIdentificacionCliente
@@ -90,12 +91,12 @@
             this.txtIdentificacionCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtIdentificacionCliente.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIdentificacionCliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtIdentificacionCliente.Location = new System.Drawing.Point(2, 127);
-            this.txtIdentificacionCliente.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtIdentificacionCliente.Location = new System.Drawing.Point(3, 160);
+            this.txtIdentificacionCliente.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtIdentificacionCliente.Name = "txtIdentificacionCliente";
             this.txtIdentificacionCliente.PlaceholderText = "Ingrese la identificacion";
             this.txtIdentificacionCliente.SelectedText = "";
-            this.txtIdentificacionCliente.Size = new System.Drawing.Size(258, 28);
+            this.txtIdentificacionCliente.Size = new System.Drawing.Size(344, 34);
             this.txtIdentificacionCliente.TabIndex = 26;
             // 
             // txtTelefonoCliente
@@ -112,12 +113,12 @@
             this.txtTelefonoCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTelefonoCliente.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefonoCliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTelefonoCliente.Location = new System.Drawing.Point(327, 127);
-            this.txtTelefonoCliente.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtTelefonoCliente.Location = new System.Drawing.Point(436, 160);
+            this.txtTelefonoCliente.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTelefonoCliente.Name = "txtTelefonoCliente";
             this.txtTelefonoCliente.PlaceholderText = "Ingrese el telefono";
             this.txtTelefonoCliente.SelectedText = "";
-            this.txtTelefonoCliente.Size = new System.Drawing.Size(258, 28);
+            this.txtTelefonoCliente.Size = new System.Drawing.Size(344, 34);
             this.txtTelefonoCliente.TabIndex = 27;
             // 
             // txtCorreoCliente
@@ -134,12 +135,12 @@
             this.txtCorreoCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtCorreoCliente.Font = new System.Drawing.Font("Inter SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCorreoCliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCorreoCliente.Location = new System.Drawing.Point(327, 41);
-            this.txtCorreoCliente.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtCorreoCliente.Location = new System.Drawing.Point(436, 52);
+            this.txtCorreoCliente.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCorreoCliente.Name = "txtCorreoCliente";
             this.txtCorreoCliente.PlaceholderText = "Ingrese el correo electronico";
             this.txtCorreoCliente.SelectedText = "";
-            this.txtCorreoCliente.Size = new System.Drawing.Size(258, 28);
+            this.txtCorreoCliente.Size = new System.Drawing.Size(344, 34);
             this.txtCorreoCliente.TabIndex = 28;
             // 
             // lblNombreCliente
@@ -147,7 +148,8 @@
             this.lblNombreCliente.AutoSize = true;
             this.lblNombreCliente.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombreCliente.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblNombreCliente.Location = new System.Drawing.Point(3, 0);
+            this.lblNombreCliente.Location = new System.Drawing.Point(4, 0);
+            this.lblNombreCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombreCliente.Name = "lblNombreCliente";
             this.lblNombreCliente.Size = new System.Drawing.Size(94, 20);
             this.lblNombreCliente.TabIndex = 29;
@@ -158,7 +160,8 @@
             this.lblIdentificacionCliente.AutoSize = true;
             this.lblIdentificacionCliente.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIdentificacionCliente.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblIdentificacionCliente.Location = new System.Drawing.Point(3, 86);
+            this.lblIdentificacionCliente.Location = new System.Drawing.Point(4, 108);
+            this.lblIdentificacionCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIdentificacionCliente.Name = "lblIdentificacionCliente";
             this.lblIdentificacionCliente.Size = new System.Drawing.Size(136, 20);
             this.lblIdentificacionCliente.TabIndex = 30;
@@ -169,7 +172,8 @@
             this.lblTelefonoCliente.AutoSize = true;
             this.lblTelefonoCliente.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefonoCliente.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblTelefonoCliente.Location = new System.Drawing.Point(328, 86);
+            this.lblTelefonoCliente.Location = new System.Drawing.Point(437, 108);
+            this.lblTelefonoCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTelefonoCliente.Name = "lblTelefonoCliente";
             this.lblTelefonoCliente.Size = new System.Drawing.Size(100, 20);
             this.lblTelefonoCliente.TabIndex = 31;
@@ -180,7 +184,8 @@
             this.lblCorreoElectronicoCliente.AutoSize = true;
             this.lblCorreoElectronicoCliente.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCorreoElectronicoCliente.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblCorreoElectronicoCliente.Location = new System.Drawing.Point(328, 0);
+            this.lblCorreoElectronicoCliente.Location = new System.Drawing.Point(437, 0);
+            this.lblCorreoElectronicoCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCorreoElectronicoCliente.Name = "lblCorreoElectronicoCliente";
             this.lblCorreoElectronicoCliente.Size = new System.Drawing.Size(179, 20);
             this.lblCorreoElectronicoCliente.TabIndex = 32;
@@ -197,10 +202,10 @@
             this.btnRegistrarCliente.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnRegistrarCliente.Font = new System.Drawing.Font("Inter SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarCliente.ForeColor = System.Drawing.Color.White;
-            this.btnRegistrarCliente.Location = new System.Drawing.Point(2, 174);
-            this.btnRegistrarCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegistrarCliente.Location = new System.Drawing.Point(3, 218);
+            this.btnRegistrarCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegistrarCliente.Name = "btnRegistrarCliente";
-            this.btnRegistrarCliente.Size = new System.Drawing.Size(134, 47);
+            this.btnRegistrarCliente.Size = new System.Drawing.Size(179, 58);
             this.btnRegistrarCliente.TabIndex = 33;
             this.btnRegistrarCliente.Text = "💾 Registrar";
             this.btnRegistrarCliente.Click += new System.EventHandler(this.btnRegistrarCliente_Click);
@@ -216,10 +221,10 @@
             this.btnConsultarRegistrados.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(74)))), ((int)(((byte)(125)))));
             this.btnConsultarRegistrados.Font = new System.Drawing.Font("Inter SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultarRegistrados.ForeColor = System.Drawing.Color.White;
-            this.btnConsultarRegistrados.Location = new System.Drawing.Point(327, 174);
-            this.btnConsultarRegistrados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnConsultarRegistrados.Location = new System.Drawing.Point(436, 218);
+            this.btnConsultarRegistrados.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnConsultarRegistrados.Name = "btnConsultarRegistrados";
-            this.btnConsultarRegistrados.Size = new System.Drawing.Size(134, 47);
+            this.btnConsultarRegistrados.Size = new System.Drawing.Size(179, 58);
             this.btnConsultarRegistrados.TabIndex = 35;
             this.btnConsultarRegistrados.Text = "📋 Listado";
             this.btnConsultarRegistrados.Click += new System.EventHandler(this.btnConsultarRegistrados_Click);
@@ -239,8 +244,8 @@
             this.tableLayoutPanel1.Controls.Add(this.txtIdentificacionCliente, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.lblIdentificacionCliente, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.lblTelefonoCliente, 1, 2);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(62, 105);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(82, 142);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.02128F));
@@ -248,19 +253,19 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.02128F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.2766F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.40425F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(650, 229);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(867, 282);
             this.tableLayoutPanel1.TabIndex = 36;
             // 
             // Cliente
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(746, 505);
+            this.ClientSize = new System.Drawing.Size(995, 622);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.lblRegistrarClientes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Cliente";
             this.Text = "Cliente";
             this.Load += new System.EventHandler(this.Cliente_Load);
